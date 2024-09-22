@@ -1,3 +1,6 @@
+import random
+import numpy as np
+
 class Train:
     def __init__(self, config, train_id, line, capacity, default_speed, max_speed, departure_time, length):
         """
@@ -39,8 +42,8 @@ class Train:
             3: "depart",       # 离站出发
             4: "stay"          # 不出发，继续等待
         }
-        print(self.position_x)
-        print(self.line.forward)
+        self.seed = self.config.seed
+
     def get_position_x(self):
         if self.line.forward is True:
             self.position_x = self.position_on_line
@@ -108,6 +111,8 @@ class Train:
             # 列车到站，调用列车到站处理函数
             self.arrive_at_final, self.passengers_to_unload = self.arrive_at_station()
 
+    def set_seed(self, seed=None):
+        self.seed = seed
 
     def get_position_on_line(self):
         return self.position_on_line
@@ -119,13 +124,19 @@ class Train:
         """
         action = self.action
         # print('action:', action)
-        action = self.action_dict[action]
+        actions_indices = np.argmax(action, axis=-1)  
+        action = np.vectorize(self.action_dict.get)(actions_indices)
         # print('action:', action)
         if self.moving is False:
-            assert action == "depart" or action == 'stay', "Invalid action."
+            # assert action == "depart" or action == 'stay', "Invalid action."
+            if action != "depart" or action != "stay":
+                # action 从 depart 和 stay 中 随机选一个
+                action = random.choice(["depart", "stay"])
         elif self.moving is True:
-            assert action == "accelerate" or action == "decelerate" or action == "stay", "Invalid action."
-
+            # assert action == "accelerate" or action == "decelerate" or action == "stay", "Invalid action."
+            if action != "accelerate" or action != "decelerate" or action != "stay":
+                # action 从 accelerate, decelerate 和 stay 中 随机选一个
+                action = random.choice(["accelerate", "decelerate", "stay"])
         if action == "accelerate":
             self.accelerate()
             self.move()
@@ -204,8 +215,8 @@ class Train:
     # 到终点的距离
     def get_distance_to_final(self):
         if self.on_line == False:
-            return float('inf')
-        return self.line.line_length - self.line.trains_info[self]
+            return self.line.get_line_length()
+        return self.line.get_line_length() - self.line.trains_info[self]
     
     # 获取目标站点
     def get_target_station(self):
@@ -228,12 +239,13 @@ class Train:
         line = self.line
         # 获得当前的车辆的index
         if self not in line.trains:
-            return float('inf')
+            # 返回线路长度
+            return line.get_line_length()
         index = line.trains.index(self)
 
         # 如果是第一辆车
         if index == 0:
-            return float('inf')
+            return line.get_line_length()
         else:
             return line.trains[index-1].get_distance_to_final() - self.get_distance_to_final()
     

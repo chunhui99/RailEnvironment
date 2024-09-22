@@ -1,3 +1,6 @@
+import numpy as np
+import random
+
 class DualLine:
     def __init__(self, line_forward, line_backward):
         """
@@ -13,14 +16,14 @@ class DualLine:
 
 
 class Line:
-    def __init__(self, name, line_position_y, forward = True):
+    def __init__(self, world, name, line_position_y, forward = True):
         """
         Initialize a train line.
 
         :param name: Name or identifier of the line.
         """
         self.name = name
-        self.current_time = 0
+        self.world = world
         self.start_station = None
         self.end_station = None
         self.stations = []
@@ -30,7 +33,17 @@ class Line:
         self.trains = []
         self.line_position_y = line_position_y
         self.forward = forward
+        self.seed = None
 
+    def set_seed(self, seed=None):
+        self.seed = seed
+
+    def get_world(self):
+        return self.world
+    
+    def get_current_time(self):
+        return self.world.get_current_time()
+    
     def update_trains(self):
         """
         Update the state of all trains on the line.

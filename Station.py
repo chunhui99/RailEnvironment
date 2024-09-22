@@ -1,5 +1,5 @@
 import random
-
+import numpy as np
 
 # 可能可以抽象出一个该站点的抽象类，包含去向，来向，以及其他线该站点的情况
 
@@ -38,6 +38,12 @@ class Station:
         self.total_wait_time = 0
         self.is_full = False
 
+    def get_world(self):
+        return self.line.world
+    
+    def get_current_time(self):
+        return self.get_world().get_current_time()
+    
     def update_wait_times(self):
         """
         Update the waiting time for each passenger group. Increase the wait time for each group by one time step.
@@ -53,7 +59,7 @@ class Station:
         
         :param num_passengers: number of new passengers arriving at the station.
         """
-        print('num_passengers:', num_passengers)
+
         if self.current_capacity + num_passengers > self.max_capacity:
             accepted_passengers = self.max_capacity - self.current_capacity
             self.current_capacity = self.max_capacity
@@ -116,19 +122,19 @@ class Station:
         """
         Update the station at each time step.
         """
-        print('self.waiting_passengers:', self.waiting_passengers)
+        # print('self.waiting_passengers:', self.waiting_passengers)
         if not self.is_terminal:
             passengers = self.generate_passengers()
-            print('passengers:', passengers)
+            # print('passengers:', passengers)
             self.add_passengers(passengers)
-        print('self.waiting_passengers:', self.waiting_passengers)
+        # print('self.waiting_passengers:', self.waiting_passengers)
 
     def generate_passengers(self):
         """
         Generate a random number of passengers arriving at the station.
         """
 
-        return random.randint(0, self.config.max_passengers_per_station_per_interval)
+        return self.local_random.randint(0, self.config.max_passengers_per_station_per_interval)
     
     def get_station_name(self):
         """
@@ -137,3 +143,10 @@ class Station:
         :return: Name of the station as a string.
         """
         return self.station_name
+    
+    def set_seed(self,seed):
+        
+        self.seed = seed
+        self.local_random = random.Random(seed)
+
+        

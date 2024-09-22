@@ -1,14 +1,17 @@
 import gym
 from gym import spaces
 import numpy as np
-from Station import Station
-from Line import Line, DualLine
-from Train import Train
-from World import World
+import sys
+sys.path.append('/home/chunhuili/Transportation')
+from RailEnvironment.Station import Station
+from RailEnvironment.Line import Line, DualLine
+from RailEnvironment.Train import Train
+from RailEnvironment.World import World
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import pdb
+import json
 
 class TrainSchedulingEnv(gym.Env):
     metadata = {'render.modes': ['human']}
@@ -17,7 +20,10 @@ class TrainSchedulingEnv(gym.Env):
         super(TrainSchedulingEnv, self).__init__()
         self.config = config
         self.world = World(config)
-        self._initialize_network()
+        self.seed = self.config.seed
+        network_json = json.load(open(config.network_config_path))
+        # self._initialize_network()
+        self._initialize_network_from_config(network_json)
         self._setup_spaces()
 
         self.is_record = False
@@ -45,8 +51,8 @@ class TrainSchedulingEnv(gym.Env):
         # Example setup with 4 intersecting lines
         lineA_forward_position_y = 0
         lineA_backward_position_y = -1
-        lineA_forward = Line(name="lineA_forward", line_position_y=lineA_forward_position_y)
-        lineA_backward = Line(name="lineA_backward", line_position_y=lineA_backward_position_y, forward=False)
+        lineA_forward = Line(self.world, name="lineA_forward", line_position_y=lineA_forward_position_y)
+        lineA_backward = Line(self.world, name="lineA_backward", line_position_y=lineA_backward_position_y, forward=False)
         lineA = DualLine(lineA_forward, lineA_backward)
 
         station_A_forward = Station(config, 0, "A", lineA.line_forward, 1000, station_position_x = 1000, station_position_y=lineA_forward_position_y)
@@ -90,6 +96,39 @@ class TrainSchedulingEnv(gym.Env):
 
         self.world.init_train_to_line()
 
+    def _initialize_network_from_config(self, network_config):
+        """
+        Initialize the railway network based on the configuration file.
+        """
+        config = network_config
+
+        for line_data in config["lines"]:
+            line = Line(self.world, name=line_data["name"], line_position_y=line_data.get("position_y", 0))
+            stations = []
+            for station_data in line_data["stations"]:
+                station = Station(self.config, station_id=station_data["id"], station_name=station_data["name"],
+                                  line=line, max_capacity=station_data["capacity"],
+                                  station_position_x=station_data["position_x"],
+                                  station_position_y=station_data["position_y"])
+                stations.append(station)
+            # Set up the line with stations
+            station_distance_dict = {(key.split('-')[0],key.split('-')[1]):value for key, value in line_data["station_distances"].items()}
+
+            line.set_line(start_station=stations[0], end_station=stations[-1], stations=stations,
+                          station_distances=station_distance_dict,
+                          begin_distance=line_data["begin_distance"], end_distance=line_data["end_distance"])
+            self.world.add_line(line)
+
+        for train_data in config["trains"]:
+            line = self.world.get_line_by_name(train_data["line"])
+            train = Train(self.config, train_id=train_data["id"], line=line,
+                          capacity=train_data["capacity"], default_speed=train_data["default_speed"],
+                          max_speed=train_data["max_speed"], departure_time=train_data["departure_time"],
+                          length=train_data["length"])
+            self.world.add_train(train)
+
+        self.world.init_train_to_line()
+
     def sample_action(self):
         """
         Sample a random action for each train based on its current state.
@@ -112,17 +151,22 @@ class TrainSchedulingEnv(gym.Env):
         print('world.get_trains():', self.world.get_trains())
         return actions
 
-    
     def _setup_spaces(self):
         """
         Define the action and observation spaces for the environment.
         """
         # Example action space: for each train, if moving, decide to accelerate, decelerate, or maintain speed; if not moving, stay or depart
-        self.action_space = spaces.MultiDiscrete([5] * self.world.get_train_num())
+        self.action_space = spaces.Discrete(5)
+
+        print('self.world.get_train_num():' , self.world.get_train_num())
         
         # Observation space 
         train_obs_dim = self.config.obs_dim  # Example dimension
-        self.observation_space = spaces.Box(low=0, high=np.inf, shape=(self.world.get_train_num() * train_obs_dim, ), dtype=np.float32)
+        self.observation_space = []
+        self.share_observation_space = []
+        for i in range(self.world.get_train_num()):
+            self.observation_space.append(spaces.Box(low=0, high=np.inf, shape=(train_obs_dim, ), dtype=np.float32))
+            self.share_observation_space.append(spaces.Box(low=0, high=np.inf, shape=(train_obs_dim * self.world.get_train_num(), ), dtype=np.float32))
 
     def step(self, actions):
         """
@@ -131,6 +175,7 @@ class TrainSchedulingEnv(gym.Env):
         :param action: List of actions for each train.
         :return: observation, reward, done, info
         """
+        # Update the actions of all trains
         self.agents = self.world.get_trains()
         # print('self.agents:', self.agents)
         for idx, agent in enumerate(self.agents):
@@ -144,26 +189,27 @@ class TrainSchedulingEnv(gym.Env):
 
         # Calculate rewards (example: minimize total passenger waiting time)
         reward = self._calculate_reward()
-
+        reward = np.array([reward] * len(self.agents))
         # Check if done 时间到了或者发生碰撞都结束
         done = self.world.current_time >= self.config.max_time or collision
+        done = np.array([done] * len(self.agents))
 
         # Optionally, collect additional info
         info = {}
 
         return observations, reward, done, info
 
-    def reset(self, config):
+    def reset(self):
         """
         Reset the environment to an initial state.
 
         :return: Initial observation.
         """
         # Reset world
-        self.world = World(config)
+        self.world = World(self.config)
         self._initialize_network()
         self.current_time = 0
-
+        self.world.set_seed(self.seed)
         # Reset observations
         self.agents = self.world.get_trains()
         observations = self._get_observations(self.agents)
@@ -191,7 +237,7 @@ class TrainSchedulingEnv(gym.Env):
                 train.get_previous_train_capacity(),
                 train.on_line
             ]
-            obs.extend(train_obs)
+            obs.append(train_obs)
         return np.array(obs, dtype=np.float32)
 
     def _calculate_reward(self):
@@ -205,15 +251,19 @@ class TrainSchedulingEnv(gym.Env):
         reward = -total_waiting
         return reward
 
+    def set_seed(self, seed=None):
+        self.seed = seed
+        self.world.set_seed(seed)
+
 
 if __name__ == "__main__":
     from Config import Config
     config = Config()
     env = TrainSchedulingEnv(config)
-    obs = env.reset(config)
+    obs = env.reset()
     done = False
     while not done:
-        action = env.sample_action()
+        actions = [env.sample_action() for _ in range(3)]
         # print("Action:", action)
-        obs, reward, done, info = env.step(action)
+        obs, reward, done, info = env.step(actions)
         # env.render()

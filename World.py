@@ -1,13 +1,44 @@
+import numpy as np
+import random
+
 class World:
     def __init__(self, config):
+        self.config = config
         self.current_time = 0  # In seconds
         self.time_interval = config.time_interval  # Time interval in minutes
         self.trains = []
         self.lines = []
+        self.lines_dict = {} # {line_name: line}
 
+    def set_seed(self, seed=None):
+        self.seed = seed
+        for i,line in enumerate(self.lines):
+            line_seed = seed + i
+            line.set_seed(line_seed)
+        for i,train in enumerate(self.trains):
+            train_seed = seed + i
+            train.set_seed(train_seed)
+        stations = self.get_stations()
+        for i,station in enumerate(stations):
+            station_seed = seed + i
+            station.set_seed(station_seed)
+    def get_line_by_name(self, line_name):
+        return self.lines_dict[line_name]
+    
+    def get_all_stations(self):
+        """
+        Get all stations in the world.
+        
+        :return: List of Station objects.
+        """
+        self.stations = []
+        for line in self.lines:
+            stations += line.get_all_stations()
 
     def add_line(self, line):
+        self.lines_dict[line.name] = line
         self.lines.append(line)
+
 
     def add_train(self, train):
         self.trains.append(train)
@@ -62,7 +93,7 @@ class World:
         
         :return: Total number of trains as an integer.
         """
-        return sum([len(line.trains) for line in self.lines])
+        return len(self.trains)
     
     def judge_all_on_line(self):
         """

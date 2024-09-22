@@ -10,7 +10,7 @@ app = dash.Dash(__name__)
 # 加载训练调度环境的配置
 config = Config()
 env = TrainSchedulingEnv(config)
-obs = env.reset(config)
+obs = env.reset()
 done = False
 current_step = 0
 
@@ -126,4 +126,4 @@ def on_next_or_continue(n_next, n_intervals, n_continue, n_stop, is_disabled):
 
 # 启动应用
 if __name__ == "__main__":
-    app.run_server(debug=True, host='0.0.0.0', port=8050)
+    app.run_server(debug=True, host='0.0.0.0', port=8051)
