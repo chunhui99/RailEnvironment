@@ -1,0 +1,11 @@
+{"time":"2024-09-24T07:41:12.90665926+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T07:41:12.906672674+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed15_episode_900/wandb/run-20240924_074112-0gkw9am6/logs/debug-core.log"}
+{"time":"2024-09-24T07:41:12.906710766+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T07:41:12.906714083+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed15_episode_900/wandb/run-20240924_074112-0gkw9am6/logs/debug-core.log"}
+{"time":"2024-09-24T07:41:12.932379051+08:00","level":"INFO","msg":"created new stream","id":"0gkw9am6"}
+{"time":"2024-09-24T07:41:12.932403887+08:00","level":"INFO","msg":"stream: started","id":"0gkw9am6"}
+{"time":"2024-09-24T07:41:12.932452746+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"0gkw9am6"}}
+{"time":"2024-09-24T07:41:12.932531616+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0gkw9am6"}}
+{"time":"2024-09-24T07:41:12.932608233+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"0gkw9am6"}}
+{"time":"2024-09-24T07:41:13.401531498+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T07:41:13.40639327+08:00","level":"INFO","msg":"Starting system monitor"}

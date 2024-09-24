@@ -1,0 +1,338 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(179)compute_returns()
+-> if self._use_proper_time_limits:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(185)train()
+-> if self._use_popart or self._use_valuenorm:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(186)train()
+-> advantages = buffer.returns[:-1] - self.value_normalizer.denormalize(buffer.value_preds[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(189)train()
+-> advantages_copy = advantages.copy()
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(190)train()
+-> advantages_copy[buffer.active_masks[:-1] == 0.0] = np.nan
+(200, 32, 3, 1)
+array([[[[-0.03133094],
+         [-0.03133094],
+         [-0.03133094]],
+
+        [[-0.03376942],
+         [-0.03376942],
+         [-0.03376942]],
+
+        [[-0.03384616],
+         [-0.03384616],
+         [-0.03384616]],
+
+        ...,
+
+        [[-0.0337851 ],
+         [-0.0337851 ],
+         [-0.0337851 ]],
+
+        [[-0.03382752],
+         [-0.03382752],
+         [-0.03382752]],
+
+        [[-0.03270971],
+         [-0.03270971],
+         [-0.03270971]]],
+
+
+       [[[ 0.02145349],
+         [ 0.02145349],
+         [ 0.02145349]],
+
+        [[ 0.01874878],
+         [ 0.01874878],
+         [ 0.01874878]],
+
+        [[ 0.01890607],
+         [ 0.01890607],
+         [ 0.01890607]],
+
+        ...,
+
+        [[ 0.01872621],
+         [ 0.01872621],
+         [ 0.01872621]],
+
+        [[ 0.01879826],
+         [ 0.01879826],
+         [ 0.01879826]],
+
+        [[ 0.01987258],
+         [ 0.01987258],
+         [ 0.01987258]]],
+
+
+       [[[ 0.03219309],
+         [ 0.03219309],
+         [ 0.03219309]],
+
+        [[ 0.02937121],
+         [ 0.02937121],
+         [ 0.02937121]],
+
+        [[ 0.02940052],
+         [ 0.02940052],
+         [ 0.02940052]],
+
+        ...,
+
+        [[ 0.02939919],
+         [ 0.02939919],
+         [ 0.02939919]],
+
+        [[ 0.02933228],
+         [ 0.02933228],
+         [ 0.02933228]],
+
+        [[ 0.03064681],
+         [ 0.03064681],
+         [ 0.03064681]]],
+
+
+       ...,
+
+
+       [[[-0.0642636 ],
+         [-0.0642636 ],
+         [-0.0642636 ]],
+
+        [[ 0.00115655],
+         [ 0.00115655],
+         [ 0.00115655]],
+
+        [[-0.08040991],
+         [-0.08040991],
+         [-0.08040991]],
+
+        ...,
+
+        [[-0.04914081],
+         [-0.04914081],
+         [-0.04914081]],
+
+        [[-0.02304022],
+         [-0.02304022],
+         [-0.02304022]],
+
+        [[-0.04050191],
+         [-0.04050191],
+         [-0.04050191]]],
+
+
+       [[[-0.08264656],
+         [-0.08264656],
+         [-0.08264656]],
+
+        [[ 0.01536805],
+         [ 0.01536805],
+         [ 0.01536805]],
+
+        [[-0.07661319],
+         [-0.07661319],
+         [-0.07661319]],
+
+        ...,
+
+        [[-0.06620663],
+         [-0.06620663],
+         [-0.06620663]],
+
+        [[-0.0399953 ],
+         [-0.0399953 ],
+         [-0.0399953 ]],
+
+        [[-0.05477593],
+         [-0.05477593],
+         [-0.05477593]]],
+
+
+       [[[-0.06293708],
+         [-0.06293708],
+         [-0.06293708]],
+
+        [[ 0.00551277],
+         [ 0.00551277],
+         [ 0.00551277]],
+
+        [[-0.04620928],
+         [-0.04620928],
+         [-0.04620928]],
+
+        ...,
+
+        [[-0.0797086 ],
+         [-0.0797086 ],
+         [-0.0797086 ]],
+
+        [[-0.03385964],
+         [-0.03385964],
+         [-0.03385964]],
+
+        [[-0.00491235],
+         [-0.00491235],
+         [-0.00491235]]]], dtype=float32)
+(200, 32, 3, 1)
+1
+10
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(191)train()
+-> mean_advantages = np.nanmean(advantages_copy)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(192)train()
+-> std_advantages = np.nanstd(advantages_copy)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(193)train()
+-> advantages = (advantages - mean_advantages) / (std_advantages + 1e-5)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(196)train()
+-> train_info = {}
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(198)train()
+-> train_info['value_loss'] = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(199)train()
+-> train_info['policy_loss'] = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(200)train()
+-> train_info['dist_entropy'] = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(201)train()
+-> train_info['actor_grad_norm'] = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(202)train()
+-> train_info['critic_grad_norm'] = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(203)train()
+-> train_info['ratio'] = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(205)train()
+-> for _ in range(self.ppo_epoch):
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(206)train()
+-> if self._use_recurrent_policy:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(207)train()
+-> data_generator = buffer.recurrent_generator(advantages, self.num_mini_batch, self.data_chunk_length)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(213)train()
+-> for sample in data_generator:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(216)train()
+-> = self.ppo_update(sample, update_actor)
+(array([[ 5.6666669e+02,  4.3333334e+02,  0.0000000e+00, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00],
+       [ 9.3333331e+02,  1.7666666e+03,  3.0000000e+02, ...,
+         4.7000000e+03,  3.0000000e+02,  1.0000000e+00],
+       [ 7.0000000e+02,  6.0000000e+03,  3.0000000e+02, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00],
+       ...,
+       [ 6.1666669e+02,  2.0833333e+03,  3.0000000e+02, ...,
+         4.9166665e+03,  3.0000000e+02,  1.0000000e+00],
+       [ 2.1666667e+02,  6.9833335e+03,  3.0000000e+02, ...,
+        -2.7000000e+03,  3.0000000e+02,  1.0000000e+00],
+       [ 2.5000000e+03,  2.5000000e+03,  2.4700000e+02, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00]], dtype=float32), array([[ 5.6666669e+02,  4.3333334e+02,  0.0000000e+00, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00],
+       [ 0.0000000e+00,  7.2000000e+03,  1.5400000e+02, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00],
+       [ 1.3166666e+03,  5.8833335e+03,  3.0000000e+02, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00],
+       ...,
+       [ 6.1666669e+02,  2.0833333e+03,  3.0000000e+02, ...,
+         7.7000000e+03,  0.0000000e+00,  1.0000000e+00],
+       [ 1.0000000e+03,  7.7000000e+03,  0.0000000e+00, ...,
+        -2.7000000e+03,  3.0000000e+02,  1.0000000e+00],
+       [ 1.1500000e+03,  1.3500000e+03,  2.0000000e+00, ...,
+         1.1500000e+03,  3.0000000e+02,  1.0000000e+00]], dtype=float32), array([[[ 0.59775853, -0.4910749 ,  0.4032842 , ...,  0.1348767 ,
+         -0.09098096,  0.02351103]],
+
+       [[ 0.8404876 , -0.6402584 ,  0.79613864, ...,  0.28865054,
+         -0.05641939,  0.00722327]],
+
+       [[ 0.8445355 , -0.64591575,  0.5610796 , ...,  0.05320788,
+         -0.27495635,  0.09243263]],
+
+       ...,
+
+       [[ 0.84737086, -0.64350367,  0.69231886, ...,  0.15330277,
+         -0.20692255,  0.08727665]],
+
+       [[ 0.74236596, -0.3448871 , -0.0905685 , ..., -0.18226804,
+         -0.48961622,  0.09002329]],
+
+       [[ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ]]], dtype=float32), array([[[ 0.29589573, -0.02947293, -0.08039919, ..., -0.40033233,
+         -0.0516602 ,  0.15314104]],
+
+       [[ 0.68783957,  0.3830889 ,  0.07383721, ..., -0.7717702 ,
+         -0.20534311,  0.04076247]],
+
+       [[ 0.501549  ,  0.28912604,  0.25707784, ..., -0.8867219 ,
+         -0.20298351,  0.744942  ]],
+
+       ...,
+
+       [[ 0.5465597 ,  0.40369335,  0.36221576, ..., -0.8535463 ,
+         -0.15307906,  0.6498415 ]],
+
+       [[ 0.73271126,  0.54417914,  0.594882  , ..., -0.76944536,
+         -0.10333996,  0.7569771 ]],
+
+       [[ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ]]], dtype=float32), array([[2.],
+       [2.],
+       [1.],
+       ...,
+       [0.],
+       [2.],
+       [0.]], dtype=float32), array([[-1.1415005],
+       [-1.3529971],
+       [-0.9968715],
+       ...,
+       [-1.3573501],
+       [-0.5868325],
+       [-1.6239626]], dtype=float32), array([[-0.09477353],
+       [-0.07721417],
+       [-0.04837839],
+       ...,
+       [-0.07256066],
+       [-0.08852155],
+       [-0.08956695]], dtype=float32), array([[1.],
+       [1.],
+       [1.],
+       ...,
+       [1.],
+       [1.],
+       [1.]], dtype=float32), array([[1.],
+       [1.],
+       [1.],
+       ...,
+       [1.],
+       [1.],
+       [1.]], dtype=float32), array([[-1.0898292],
+       [-1.0865973],
+       [-1.0990239],
+       ...,
+       [-1.1116748],
+       [-1.0827783],
+       [-1.1055981]], dtype=float32), array([[-0.49860626],
+       [ 0.41893864],
+       [ 0.2583043 ],
+       ...,
+       [ 0.53956205],
+       [-1.6651764 ],
+       [ 0.7684196 ]], dtype=float32), array([[1., 1., 1.],
+       [1., 1., 1.],
+       [1., 1., 1.],
+       ...,
+       [1., 1., 1.],
+       [1., 1., 1.],
+       [1., 1., 1.]], dtype=float32))
+*** AttributeError: 'tuple' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "main.py", line 124, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 109, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 40, in run
+    train_infos = self.train()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/base_runner.py", line 120, in train
+    train_infos = self.trainer.train(self.buffer)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py", line 216, in train
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py", line 216, in train
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

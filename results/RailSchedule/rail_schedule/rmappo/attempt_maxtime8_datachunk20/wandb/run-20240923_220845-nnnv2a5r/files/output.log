@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "main.py", line 128, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 93, in main
+    envs = make_train_env(all_args)
+  File "main.py", line 47, in make_train_env
+    envs = SubprocVecEnv([get_env_fn(i) for i in range(all_args.n_rollout_threads)])
+  File "/home/chunhuili/Transportation/RailEnvironment/envs_wrappers.py", line 254, in __init__
+    observation_space, share_observation_space, action_space = self.remotes[0].recv()
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer

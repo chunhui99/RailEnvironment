@@ -1,0 +1,232 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 0/520 episodes, total num timesteps 1920/1000000.0, FPS 1291.
+
+average episode rewards is -318815.595703125
+Collision detected between Train 0 and Train 1 on Line lineA_forward
+Collision detected between Train 0 and Train 1 on Line lineA_forward
+eval average episode rewards of agent: -20098239.6
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 5/520 episodes, total num timesteps 11520/1000000.0, FPS 1646.
+
+average episode rewards is -2481771.5625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 10/520 episodes, total num timesteps 21120/1000000.0, FPS 1765.
+
+average episode rewards is -4913789.53125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 15/520 episodes, total num timesteps 30720/1000000.0, FPS 1773.
+
+average episode rewards is -1640408.3203125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 20/520 episodes, total num timesteps 40320/1000000.0, FPS 1858.
+
+average episode rewards is -1853257.96875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 25/520 episodes, total num timesteps 49920/1000000.0, FPS 1849.
+
+average episode rewards is -3643071.328125
+eval average episode rewards of agent: -292598.8999999999
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 30/520 episodes, total num timesteps 59520/1000000.0, FPS 1870.
+
+average episode rewards is -2648007.421875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 35/520 episodes, total num timesteps 69120/1000000.0, FPS 1868.
+
+average episode rewards is -1597197.65625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 40/520 episodes, total num timesteps 78720/1000000.0, FPS 1878.
+
+average episode rewards is -1952762.6953125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 45/520 episodes, total num timesteps 88320/1000000.0, FPS 1875.
+
+average episode rewards is -3284158.59375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 50/520 episodes, total num timesteps 97920/1000000.0, FPS 1894.
+
+average episode rewards is -2767491.328125
+eval average episode rewards of agent: -310327.79999999993
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 55/520 episodes, total num timesteps 107520/1000000.0, FPS 1903.
+
+average episode rewards is -1794735.3515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 60/520 episodes, total num timesteps 117120/1000000.0, FPS 1901.
+
+average episode rewards is -2228435.390625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 65/520 episodes, total num timesteps 126720/1000000.0, FPS 1920.
+
+average episode rewards is -3191115.234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 70/520 episodes, total num timesteps 136320/1000000.0, FPS 1923.
+
+average episode rewards is -2167016.25
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 75/520 episodes, total num timesteps 145920/1000000.0, FPS 1915.
+
+average episode rewards is -1578708.6328125
+eval average episode rewards of agent: -271594.99999999994
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 80/520 episodes, total num timesteps 155520/1000000.0, FPS 1924.
+
+average episode rewards is -2829347.109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 85/520 episodes, total num timesteps 165120/1000000.0, FPS 1917.
+
+average episode rewards is -3634895.390625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 90/520 episodes, total num timesteps 174720/1000000.0, FPS 1897.
+
+average episode rewards is -2553147.890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 95/520 episodes, total num timesteps 184320/1000000.0, FPS 1889.
+
+average episode rewards is -1753318.125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 100/520 episodes, total num timesteps 193920/1000000.0, FPS 1882.
+
+average episode rewards is -2779720.3125
+eval average episode rewards of agent: -335931.89999999985
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 105/520 episodes, total num timesteps 203520/1000000.0, FPS 1875.
+
+average episode rewards is -2605586.71875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 110/520 episodes, total num timesteps 213120/1000000.0, FPS 1865.
+
+average episode rewards is -2110369.6875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 115/520 episodes, total num timesteps 222720/1000000.0, FPS 1861.
+
+average episode rewards is -1960619.6484375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 120/520 episodes, total num timesteps 232320/1000000.0, FPS 1858.
+
+average episode rewards is -2798174.0625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 125/520 episodes, total num timesteps 241920/1000000.0, FPS 1848.
+
+average episode rewards is -2823131.71875
+eval average episode rewards of agent: -300392.19999999995
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 130/520 episodes, total num timesteps 251520/1000000.0, FPS 1840.
+
+average episode rewards is -2255547.421875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 135/520 episodes, total num timesteps 261120/1000000.0, FPS 1839.
+
+average episode rewards is -2372972.578125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 140/520 episodes, total num timesteps 270720/1000000.0, FPS 1837.
+
+average episode rewards is -2852899.21875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 145/520 episodes, total num timesteps 280320/1000000.0, FPS 1843.
+
+average episode rewards is -3085897.734375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 150/520 episodes, total num timesteps 289920/1000000.0, FPS 1840.
+
+average episode rewards is -2035252.734375
+eval average episode rewards of agent: -286428.79999999993
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 155/520 episodes, total num timesteps 299520/1000000.0, FPS 1837.
+
+average episode rewards is -2594577.421875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 160/520 episodes, total num timesteps 309120/1000000.0, FPS 1832.
+
+average episode rewards is -2589886.40625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 165/520 episodes, total num timesteps 318720/1000000.0, FPS 1830.
+
+average episode rewards is -2222175.9375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 170/520 episodes, total num timesteps 328320/1000000.0, FPS 1826.
+
+average episode rewards is -2308293.75
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 175/520 episodes, total num timesteps 337920/1000000.0, FPS 1825.
+
+average episode rewards is -2380003.59375
+eval average episode rewards of agent: -283315.89999999997
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 180/520 episodes, total num timesteps 347520/1000000.0, FPS 1820.
+
+average episode rewards is -2793339.140625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 185/520 episodes, total num timesteps 357120/1000000.0, FPS 1817.
+
+average episode rewards is -2595575.15625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 190/520 episodes, total num timesteps 366720/1000000.0, FPS 1817.
+
+average episode rewards is -2158679.0625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 195/520 episodes, total num timesteps 376320/1000000.0, FPS 1813.
+
+average episode rewards is -2281471.875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 200/520 episodes, total num timesteps 385920/1000000.0, FPS 1812.
+
+average episode rewards is -2430588.75
+eval average episode rewards of agent: -281276.19999999995
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 205/520 episodes, total num timesteps 395520/1000000.0, FPS 1809.
+
+average episode rewards is -2260061.71875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 210/520 episodes, total num timesteps 405120/1000000.0, FPS 1808.
+
+average episode rewards is -2229181.40625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 215/520 episodes, total num timesteps 414720/1000000.0, FPS 1804.
+
+average episode rewards is -2359188.515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 220/520 episodes, total num timesteps 424320/1000000.0, FPS 1804.
+
+average episode rewards is -2422620.9375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 225/520 episodes, total num timesteps 433920/1000000.0, FPS 1803.
+
+average episode rewards is -2186839.6875
+eval average episode rewards of agent: -297953.49999999994
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 230/520 episodes, total num timesteps 443520/1000000.0, FPS 1799.
+
+average episode rewards is -2601179.0625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 235/520 episodes, total num timesteps 453120/1000000.0, FPS 1798.
+
+average episode rewards is -2388372.890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 240/520 episodes, total num timesteps 462720/1000000.0, FPS 1796.
+
+average episode rewards is -2557554.375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 245/520 episodes, total num timesteps 472320/1000000.0, FPS 1795.
+
+average episode rewards is -2426556.09375
+Traceback (most recent call last):
+  File "main.py", line 132, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 117, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 31, in run
+    obs, rewards, dones, infos = self.envs.step(actions_env) # obs 32 3 9 rewards 32 3 dones 32 3 infos 32 3
+  File "/home/chunhuili/Transportation/RailEnvironment/envs_wrappers.py", line 107, in step
+    return self.step_wait()
+  File "/home/chunhuili/Transportation/RailEnvironment/envs_wrappers.py", line 269, in step_wait
+    return np.stack(obs), np.stack(rews), np.stack(dones), infos
+  File "<__array_function__ internals>", line 200, in stack
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/numpy/core/shape_base.py", line 462, in stack
+    shapes = {arr.shape for arr in arrays}
+KeyboardInterrupt

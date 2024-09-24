@@ -1,0 +1,18 @@
+{"time":"2024-09-23T15:41:51.726126567+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T15:41:51.726167473+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/mappo/check/wandb/run-20240923_154151-qm7286cf/logs/debug-core.log"}
+{"time":"2024-09-23T15:41:51.726266596+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T15:41:51.726276247+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/mappo/check/wandb/run-20240923_154151-qm7286cf/logs/debug-core.log"}
+{"time":"2024-09-23T15:41:51.73255+08:00","level":"INFO","msg":"created new stream","id":"qm7286cf"}
+{"time":"2024-09-23T15:41:51.732595943+08:00","level":"INFO","msg":"stream: started","id":"qm7286cf"}
+{"time":"2024-09-23T15:41:51.73260294+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"qm7286cf"}}
+{"time":"2024-09-23T15:41:51.73262829+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"qm7286cf"}}
+{"time":"2024-09-23T15:41:51.73267763+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qm7286cf"}}
+{"time":"2024-09-23T15:41:52.083221586+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T15:41:52.084932871+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-23T15:45:52.882426254+08:00","level":"INFO","msg":"stream: closing","id":"qm7286cf"}
+{"time":"2024-09-23T15:45:52.882458715+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-23T15:45:52.883006246+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-23T15:45:54.511797756+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"qm7286cf"}}
+{"time":"2024-09-23T15:45:54.511863257+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"qm7286cf"}}
+{"time":"2024-09-23T15:45:54.511890792+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"qm7286cf"}}
+{"time":"2024-09-23T15:45:54.511955489+08:00","level":"INFO","msg":"stream: closed","id":"qm7286cf"}

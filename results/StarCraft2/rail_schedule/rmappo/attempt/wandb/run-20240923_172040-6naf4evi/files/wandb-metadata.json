@@ -1,0 +1,36 @@
+{
+  "os": "Linux-5.15.0-117-generic-x86_64-with-glibc2.17",
+  "python": "3.8.19",
+  "startedAt": "2024-09-23T09:20:40.454501Z",
+  "args": [
+    "--experiment_name",
+    "attempt"
+  ],
+  "program": "main.py",
+  "codePath": "MAPPO/main.py",
+  "git": {
+    "remote": "git@github.com:chunhui99/RailEnvironment.git",
+    "commit": "73dd8ad9f93014f13e0cc94606c68ec883c282bd"
+  },
+  "email": "lich@smail.nju.edu.cn",
+  "root": "/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/rmappo/attempt",
+  "host": "eez040",
+  "username": "chunhuili",
+  "executable": "/home/chunhuili/anaconda3/envs/transport/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "disk": {
+    "/": {
+      "total": "3775530172416",
+      "used": "28510539776"
+    }
+  },
+  "memory": {
+    "total": "540628262912"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  }
+}

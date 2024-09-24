@@ -1,0 +1,103 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(185)train()
+-> if self._use_popart or self._use_valuenorm:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(504)recurrent_generator()
+-> episode_length, n_rollout_threads, num_agents = self.rewards.shape[0:3]
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(505)recurrent_generator()
+-> batch_size = n_rollout_threads * episode_length * num_agents
+200
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(506)recurrent_generator()
+-> data_chunks = batch_size // data_chunk_length  # [C=r*T*M/L]
+19200
+*** NameError: name 'data_chunks' is not defined
+*** NameError: name 'data_chunks' is not defined
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(507)recurrent_generator()
+-> mini_batch_size = data_chunks // num_mini_batch
+1920
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(509)recurrent_generator()
+-> rand = torch.randperm(data_chunks).numpy()
+1920
+(201, 32, 3, 27)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(510)recurrent_generator()
+-> sampler = [rand[i * mini_batch_size:(i + 1) * mini_batch_size] for i in range(num_mini_batch)]
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(512)recurrent_generator()
+-> if len(self.share_obs.shape) > 4:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(516)recurrent_generator()
+-> share_obs = _cast(self.share_obs[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(517)recurrent_generator()
+-> obs = _cast(self.obs[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(519)recurrent_generator()
+-> actions = _cast(self.actions)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(520)recurrent_generator()
+-> action_log_probs = _cast(self.action_log_probs)
+array([[2.],
+       [2.],
+       [2.],
+       ...,
+       [2.],
+       [0.],
+       [0.]], dtype=float32)
+(19200, 1)
+1
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(521)recurrent_generator()
+-> advantages = _cast(advantages)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(522)recurrent_generator()
+-> value_preds = _cast(self.value_preds[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(523)recurrent_generator()
+-> returns = _cast(self.returns[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(524)recurrent_generator()
+-> masks = _cast(self.masks[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(525)recurrent_generator()
+-> active_masks = _cast(self.active_masks[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(528)recurrent_generator()
+-> rnn_states = self.rnn_states[:-1].transpose(1, 2, 0, 3, 4).reshape(-1, *self.rnn_states.shape[3:])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(529)recurrent_generator()
+-> rnn_states_critic = self.rnn_states_critic[:-1].transpose(1, 2, 0, 3, 4).reshape(-1,
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(530)recurrent_generator()
+-> *self.rnn_states_critic.shape[
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(531)recurrent_generator()
+-> 3:])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(530)recurrent_generator()
+-> *self.rnn_states_critic.shape[
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(529)recurrent_generator()
+-> rnn_states_critic = self.rnn_states_critic[:-1].transpose(1, 2, 0, 3, 4).reshape(-1,
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(533)recurrent_generator()
+-> if self.available_actions is not None:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(534)recurrent_generator()
+-> available_actions = _cast(self.available_actions[:-1])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(536)recurrent_generator()
+-> for indices in sampler:
+array([[-1.09096  ],
+       [-1.089922 ],
+       [-1.0880133],
+       ...,
+       [-1.0860252],
+       [-1.1119779],
+       [-1.115052 ]], dtype=float32)
+(19200, 1)
+(19200, 1)
+array([[-0.6139841 ],
+       [-1.1404684 ],
+       [-1.2411206 ],
+       ...,
+       [-0.5549894 ],
+       [-0.44933414],
+       [-0.96049786]], dtype=float32)
+(19200, 1)
+(19200, 1)
+(19200, 1)
+(19200, 1)
+--KeyboardInterrupt--
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(537)recurrent_generator()
+-> share_obs_batch = []
+(19200, 1, 64)
+(19200, 1, 64)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(538)recurrent_generator()
+-> obs_batch = []
+array([ 606,   83, 1556, ...,  542,  353,  140])
+1920
+10

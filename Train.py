@@ -97,11 +97,10 @@ class Train:
         """
         Move the train towards the next station.
         """
-        assert self.moving, "Train is not moving."
         
         # 移动的距离是速度乘以时间间隔，但不能超过到下一站的剩余距离
-        move_distance = min(self.speed * self.time_interval, self.distance_to_next_station)
-        
+        move_distance = min(self.speed * 1000 / 60 * self.time_interval, self.distance_to_next_station)
+
         if self.distance_to_next_station > 0:
             # 减少到下一站的剩余距离
             self.distance_to_next_station -= move_distance
@@ -110,6 +109,10 @@ class Train:
         else:
             # 列车到站，调用列车到站处理函数
             self.arrive_at_final, self.passengers_to_unload = self.arrive_at_station()
+        if not self.moving:
+            self.moving = True
+            self.speed = self.default_speed
+
 
     def set_seed(self, seed=None):
         self.seed = seed
@@ -118,25 +121,14 @@ class Train:
         return self.position_on_line
     
     def update(self):
-        print('update self.current_passengers:', self.current_passengers)
+        # print('update self.current_passengers:', self.current_passengers)
         """
         Take an action based on the current state.
         """
         action = self.action
-        # print('action:', action)
         actions_indices = np.argmax(action, axis=-1)  
         action = np.vectorize(self.action_dict.get)(actions_indices)
-        # print('action:', action)
-        if self.moving is False:
-            # assert action == "depart" or action == 'stay', "Invalid action."
-            if action != "depart" or action != "stay":
-                # action 从 depart 和 stay 中 随机选一个
-                action = random.choice(["depart", "stay"])
-        elif self.moving is True:
-            # assert action == "accelerate" or action == "decelerate" or action == "stay", "Invalid action."
-            if action != "accelerate" or action != "decelerate" or action != "stay":
-                # action 从 accelerate, decelerate 和 stay 中 随机选一个
-                action = random.choice(["accelerate", "decelerate", "stay"])
+
         if action == "accelerate":
             self.accelerate()
             self.move()
@@ -144,11 +136,6 @@ class Train:
             self.decelerate()
             self.move()
         elif action == "stay":
-            self.stay()
-            if self.moving:
-                self.move()
-        elif action == "depart":
-            self.depart_from_station(self.default_speed)
             self.move()
         else:
             raise ValueError("Invalid action.")
@@ -164,9 +151,6 @@ class Train:
         
     # 获得列车后面还有几站
     def get_stations_behind(self):
-        # print('self.line.stations:', self.line.stations)
-        # print('self.target_station:', self.target_station.station_name)
-        # print('self.line.stations.index(self.target_station):', self.line.stations.index(self.target_station))
         return len(self.line.stations) - self.line.stations.index(self.target_station)
     
     def arrive_at_station(self):
@@ -179,7 +163,7 @@ class Train:
 
         # Unload passengers at the station
         passengers_to_unload = self.get_unload_passengers()
-        print('passengers_to_unload:', passengers_to_unload)
+        # print('passengers_to_unload:', passengers_to_unload)
         self.current_passengers = self.current_passengers - passengers_to_unload
 
         # Load passengers from the station (if there are waiting passengers)
@@ -196,6 +180,7 @@ class Train:
         else:
             self.target_station = self.line.stations[next_station_index]
             self.distance_to_next_station = self.line.get_distance_between_stations(current_station, self.target_station)
+            # print('self.distance_to_next_station:', self.distance_to_next_station)
             return self.arrive_at_final, passengers_to_unload
 
     # 默认change到返程线路, 这个不放在这个类里面，放在World里面
@@ -261,3 +246,7 @@ class Train:
             return 0
         else:
             return line.trains[index-1].get_capacity()
+
+    def __repr__(self):
+        return f"<Train(id={self.train_id}, speed={self.speed}km/h, line='{self.line}', capacity={self.capacity}, speed={self.speed})>"
+    

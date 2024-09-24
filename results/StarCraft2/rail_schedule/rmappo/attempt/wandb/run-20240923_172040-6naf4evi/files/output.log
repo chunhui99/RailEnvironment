@@ -1,0 +1,453 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 0/520 episodes, total num timesteps 1920/1000000.0, FPS 1278.
+
+average episode rewards is -314173.65234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 5/520 episodes, total num timesteps 11520/1000000.0, FPS 1634.
+
+average episode rewards is -309914.23828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 10/520 episodes, total num timesteps 21120/1000000.0, FPS 1815.
+
+average episode rewards is -299815.25390625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 15/520 episodes, total num timesteps 30720/1000000.0, FPS 1770.
+
+average episode rewards is -296738.583984375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 20/520 episodes, total num timesteps 40320/1000000.0, FPS 1821.
+
+average episode rewards is -296543.701171875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 25/520 episodes, total num timesteps 49920/1000000.0, FPS 1865.
+
+average episode rewards is -289542.65625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 30/520 episodes, total num timesteps 59520/1000000.0, FPS 1874.
+
+average episode rewards is -294012.275390625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 35/520 episodes, total num timesteps 69120/1000000.0, FPS 1861.
+
+average episode rewards is -293351.455078125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 40/520 episodes, total num timesteps 78720/1000000.0, FPS 1879.
+
+average episode rewards is -282359.677734375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 45/520 episodes, total num timesteps 88320/1000000.0, FPS 1876.
+
+average episode rewards is -279258.544921875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 50/520 episodes, total num timesteps 97920/1000000.0, FPS 1893.
+
+average episode rewards is -281506.34765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 55/520 episodes, total num timesteps 107520/1000000.0, FPS 1878.
+
+average episode rewards is -279360.908203125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 60/520 episodes, total num timesteps 117120/1000000.0, FPS 1893.
+
+average episode rewards is -278639.384765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 65/520 episodes, total num timesteps 126720/1000000.0, FPS 1884.
+
+average episode rewards is -275129.58984375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 70/520 episodes, total num timesteps 136320/1000000.0, FPS 1895.
+
+average episode rewards is -275064.697265625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 75/520 episodes, total num timesteps 145920/1000000.0, FPS 1901.
+
+average episode rewards is -274610.185546875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 80/520 episodes, total num timesteps 155520/1000000.0, FPS 1920.
+
+average episode rewards is -275989.248046875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 85/520 episodes, total num timesteps 165120/1000000.0, FPS 1933.
+
+average episode rewards is -274837.265625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 90/520 episodes, total num timesteps 174720/1000000.0, FPS 1950.
+
+average episode rewards is -279766.69921875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 95/520 episodes, total num timesteps 184320/1000000.0, FPS 1955.
+
+average episode rewards is -276308.876953125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 100/520 episodes, total num timesteps 193920/1000000.0, FPS 1956.
+
+average episode rewards is -276173.84765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 105/520 episodes, total num timesteps 203520/1000000.0, FPS 1960.
+
+average episode rewards is -276119.12109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 110/520 episodes, total num timesteps 213120/1000000.0, FPS 1969.
+
+average episode rewards is -276958.212890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 115/520 episodes, total num timesteps 222720/1000000.0, FPS 1971.
+
+average episode rewards is -276547.587890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 120/520 episodes, total num timesteps 232320/1000000.0, FPS 1965.
+
+average episode rewards is -274585.634765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 125/520 episodes, total num timesteps 241920/1000000.0, FPS 1965.
+
+average episode rewards is -274621.0546875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 130/520 episodes, total num timesteps 251520/1000000.0, FPS 1970.
+
+average episode rewards is -273309.873046875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 135/520 episodes, total num timesteps 261120/1000000.0, FPS 1973.
+
+average episode rewards is -274012.119140625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 140/520 episodes, total num timesteps 270720/1000000.0, FPS 1969.
+
+average episode rewards is -274466.982421875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 145/520 episodes, total num timesteps 280320/1000000.0, FPS 1968.
+
+average episode rewards is -273850.400390625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 150/520 episodes, total num timesteps 289920/1000000.0, FPS 1969.
+
+average episode rewards is -275588.466796875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 155/520 episodes, total num timesteps 299520/1000000.0, FPS 1970.
+
+average episode rewards is -275089.365234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 160/520 episodes, total num timesteps 309120/1000000.0, FPS 1975.
+
+average episode rewards is -272969.853515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 165/520 episodes, total num timesteps 318720/1000000.0, FPS 1975.
+
+average episode rewards is -274604.23828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 170/520 episodes, total num timesteps 328320/1000000.0, FPS 1973.
+
+average episode rewards is -271296.38671875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 175/520 episodes, total num timesteps 337920/1000000.0, FPS 1979.
+
+average episode rewards is -266412.71484375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 180/520 episodes, total num timesteps 347520/1000000.0, FPS 1981.
+
+average episode rewards is -259892.548828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 185/520 episodes, total num timesteps 357120/1000000.0, FPS 1986.
+
+average episode rewards is -261216.591796875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 190/520 episodes, total num timesteps 366720/1000000.0, FPS 1983.
+
+average episode rewards is -262198.154296875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 195/520 episodes, total num timesteps 376320/1000000.0, FPS 1979.
+
+average episode rewards is -269076.38671875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 200/520 episodes, total num timesteps 385920/1000000.0, FPS 1980.
+
+average episode rewards is -265945.634765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 205/520 episodes, total num timesteps 395520/1000000.0, FPS 1975.
+
+average episode rewards is -288580.869140625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 210/520 episodes, total num timesteps 405120/1000000.0, FPS 1980.
+
+average episode rewards is -294894.90234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 215/520 episodes, total num timesteps 414720/1000000.0, FPS 1982.
+
+average episode rewards is -289453.88671875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 220/520 episodes, total num timesteps 424320/1000000.0, FPS 1984.
+
+average episode rewards is -293245.078125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 225/520 episodes, total num timesteps 433920/1000000.0, FPS 1981.
+
+average episode rewards is -295164.4921875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 230/520 episodes, total num timesteps 443520/1000000.0, FPS 1983.
+
+average episode rewards is -293041.904296875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 235/520 episodes, total num timesteps 453120/1000000.0, FPS 1984.
+
+average episode rewards is -292463.37890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 240/520 episodes, total num timesteps 462720/1000000.0, FPS 1984.
+
+average episode rewards is -258647.578125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 245/520 episodes, total num timesteps 472320/1000000.0, FPS 1985.
+
+average episode rewards is -258439.27734375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 250/520 episodes, total num timesteps 481920/1000000.0, FPS 1985.
+
+average episode rewards is -258559.3359375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 255/520 episodes, total num timesteps 491520/1000000.0, FPS 1988.
+
+average episode rewards is -259173.3984375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 260/520 episodes, total num timesteps 501120/1000000.0, FPS 1992.
+
+average episode rewards is -259243.0078125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 265/520 episodes, total num timesteps 510720/1000000.0, FPS 1990.
+
+average episode rewards is -259870.13671875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 270/520 episodes, total num timesteps 520320/1000000.0, FPS 1994.
+
+average episode rewards is -259527.509765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 275/520 episodes, total num timesteps 529920/1000000.0, FPS 1994.
+
+average episode rewards is -258333.486328125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 280/520 episodes, total num timesteps 539520/1000000.0, FPS 2000.
+
+average episode rewards is -259227.24609375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 285/520 episodes, total num timesteps 549120/1000000.0, FPS 1996.
+
+average episode rewards is -258902.138671875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 290/520 episodes, total num timesteps 558720/1000000.0, FPS 1998.
+
+average episode rewards is -260193.6328125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 295/520 episodes, total num timesteps 568320/1000000.0, FPS 1995.
+
+average episode rewards is -257359.453125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 300/520 episodes, total num timesteps 577920/1000000.0, FPS 1990.
+
+average episode rewards is -257653.212890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 305/520 episodes, total num timesteps 587520/1000000.0, FPS 1988.
+
+average episode rewards is -257910.029296875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 310/520 episodes, total num timesteps 597120/1000000.0, FPS 1989.
+
+average episode rewards is -258489.78515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 315/520 episodes, total num timesteps 606720/1000000.0, FPS 1990.
+
+average episode rewards is -258531.2109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 320/520 episodes, total num timesteps 616320/1000000.0, FPS 1987.
+
+average episode rewards is -258658.7109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 325/520 episodes, total num timesteps 625920/1000000.0, FPS 1985.
+
+average episode rewards is -259360.048828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 330/520 episodes, total num timesteps 635520/1000000.0, FPS 1989.
+
+average episode rewards is -258423.955078125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 335/520 episodes, total num timesteps 645120/1000000.0, FPS 1989.
+
+average episode rewards is -258731.89453125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 340/520 episodes, total num timesteps 654720/1000000.0, FPS 1988.
+
+average episode rewards is -258824.267578125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 345/520 episodes, total num timesteps 664320/1000000.0, FPS 1990.
+
+average episode rewards is -258968.203125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 350/520 episodes, total num timesteps 673920/1000000.0, FPS 1992.
+
+average episode rewards is -259557.83203125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 355/520 episodes, total num timesteps 683520/1000000.0, FPS 1994.
+
+average episode rewards is -256630.283203125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 360/520 episodes, total num timesteps 693120/1000000.0, FPS 1995.
+
+average episode rewards is -256834.833984375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 365/520 episodes, total num timesteps 702720/1000000.0, FPS 1999.
+
+average episode rewards is -257735.478515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 370/520 episodes, total num timesteps 712320/1000000.0, FPS 1998.
+
+average episode rewards is -257916.03515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 375/520 episodes, total num timesteps 721920/1000000.0, FPS 2001.
+
+average episode rewards is -258677.548828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 380/520 episodes, total num timesteps 731520/1000000.0, FPS 2001.
+
+average episode rewards is -257875.283203125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 385/520 episodes, total num timesteps 741120/1000000.0, FPS 2001.
+
+average episode rewards is -258959.82421875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 390/520 episodes, total num timesteps 750720/1000000.0, FPS 2003.
+
+average episode rewards is -258573.544921875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 395/520 episodes, total num timesteps 760320/1000000.0, FPS 2005.
+
+average episode rewards is -258792.24609375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 400/520 episodes, total num timesteps 769920/1000000.0, FPS 2007.
+
+average episode rewards is -258054.78515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 405/520 episodes, total num timesteps 779520/1000000.0, FPS 2010.
+
+average episode rewards is -259099.365234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 410/520 episodes, total num timesteps 789120/1000000.0, FPS 2009.
+
+average episode rewards is -258900.41015625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 415/520 episodes, total num timesteps 798720/1000000.0, FPS 2012.
+
+average episode rewards is -256145.15625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 420/520 episodes, total num timesteps 808320/1000000.0, FPS 2013.
+
+average episode rewards is -256683.076171875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 425/520 episodes, total num timesteps 817920/1000000.0, FPS 2010.
+
+average episode rewards is -256754.296875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 430/520 episodes, total num timesteps 827520/1000000.0, FPS 2010.
+
+average episode rewards is -256987.119140625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 435/520 episodes, total num timesteps 837120/1000000.0, FPS 2008.
+
+average episode rewards is -257709.462890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 440/520 episodes, total num timesteps 846720/1000000.0, FPS 2011.
+
+average episode rewards is -257689.013671875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 445/520 episodes, total num timesteps 856320/1000000.0, FPS 2012.
+
+average episode rewards is -258452.28515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 450/520 episodes, total num timesteps 865920/1000000.0, FPS 2014.
+
+average episode rewards is -257828.935546875
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 455/520 episodes, total num timesteps 875520/1000000.0, FPS 2015.
+
+average episode rewards is -258261.240234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 460/520 episodes, total num timesteps 885120/1000000.0, FPS 2016.
+
+average episode rewards is -258321.064453125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 465/520 episodes, total num timesteps 894720/1000000.0, FPS 2017.
+
+average episode rewards is -259034.970703125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 470/520 episodes, total num timesteps 904320/1000000.0, FPS 2019.
+
+average episode rewards is -259072.822265625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 475/520 episodes, total num timesteps 913920/1000000.0, FPS 2018.
+
+average episode rewards is -256557.24609375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 480/520 episodes, total num timesteps 923520/1000000.0, FPS 2016.
+
+average episode rewards is -258609.228515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 485/520 episodes, total num timesteps 933120/1000000.0, FPS 2015.
+
+average episode rewards is -260973.720703125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 490/520 episodes, total num timesteps 942720/1000000.0, FPS 2017.
+
+average episode rewards is -265920.234375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 495/520 episodes, total num timesteps 952320/1000000.0, FPS 2019.
+
+average episode rewards is -264829.541015625
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 500/520 episodes, total num timesteps 961920/1000000.0, FPS 2020.
+
+average episode rewards is -272493.720703125
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 505/520 episodes, total num timesteps 971520/1000000.0, FPS 2020.
+
+average episode rewards is -275156.25
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 510/520 episodes, total num timesteps 981120/1000000.0, FPS 2021.
+
+average episode rewards is -273526.787109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt updates 515/520 episodes, total num timesteps 990720/1000000.0, FPS 2022.
+
+average episode rewards is -277918.212890625
+Traceback (most recent call last):
+  File "main.py", line 124, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 109, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 27, in run
+    values, actions, action_log_probs, rnn_states, rnn_states_critic, actions_env = self.collect(step)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 107, in collect
+    = self.trainer.policy.get_actions(step_share_obs, step_obs, step_rnn_states,step_rnn_states_critic, step_masks)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/rMAPPOPolicy.py", line 68, in get_actions
+    values, rnn_states_critic = self.critic(cent_obs, rnn_states_critic, masks)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_actor_critic.py", line 172, in forward
+    critic_features, rnn_states = self.rnn(critic_features, rnn_states, masks)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/utils/rnn.py", line 26, in forward
+    x, hxs = self.rnn(x.unsqueeze(0),
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/rnn.py", line 1139, in forward
+    result = _VF.gru(input, hx, self._flat_weights, self.bias, self.num_layers,
+KeyboardInterrupt

@@ -223,7 +223,9 @@ class Line:
         :return: Boolean indicating if any collision has occurred.
         """
         positions = sorted([(train.position_on_line, train) for train in self.trains], key=lambda x: x[0])
-        print(f"Positions: {positions} Line Name: {self.name}")
+        # print('------------------------------------')
+        # print(f"Positions: {positions}")
+        # print('------------------------------------')
         for i in range(len(positions) - 1):
             current_train = positions[i][1]
             next_train = positions[i + 1][1]
@@ -233,4 +235,4 @@ class Line:
         return False
 
     def __repr__(self):
-        return f"Line({self.name}, Stations: {[station.name for station in self.stations]})"
+        return f"Line({self.name}, Stations: {[station.station_name for station in self.stations]})"

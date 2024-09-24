@@ -40,7 +40,6 @@ def update_figure():
 
         stations = line.get_all_stations()
 
-
         station_traces = [
             go.Scatter(
                 x=[station.station_position_x],
@@ -70,7 +69,7 @@ def update_figure():
     return {
         "data": traces,
         "layout": go.Layout(
-            xaxis=dict(range=[-50, 5500], title="Railway Distance"),
+            xaxis=dict(range=[-50, 16000], title="Railway Distance"),
             yaxis=dict(range=[-2, 2], showgrid=False),  # 隐藏网格线
             showlegend=False,
             height=400

@@ -1,0 +1,32 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp baseline updates 0/5208 episodes, total num timesteps 1920/10000000, FPS 1423.
+
+average episode rewards is -1235370.3515625
+eval average episode rewards of agent: -299286.10000000003
+Traceback (most recent call last):
+  File "main.py", line 135, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 120, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 84, in run
+    self.eval(total_num_steps)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 199, in eval
+    json.dump(eval_env_train_infos, f, indent=4, ensure_ascii=False)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable

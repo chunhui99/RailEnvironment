@@ -1,0 +1,25 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py(185)train()
+-> if self._use_popart or self._use_valuenorm:
+Traceback (most recent call last):
+  File "main.py", line 124, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 109, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 40, in run
+    train_infos = self.train()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/base_runner.py", line 120, in train
+    train_infos = self.trainer.train(self.buffer)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py", line 185, in train
+    if self._use_popart or self._use_valuenorm:
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_mappo.py", line 185, in train
+    if self._use_popart or self._use_valuenorm:
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

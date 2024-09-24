@@ -4,7 +4,7 @@ import random
 class World:
     def __init__(self, config):
         self.config = config
-        self.current_time = 0  # In seconds
+        self.current_time = 0  # minutes
         self.time_interval = config.time_interval  # Time interval in minutes
         self.trains = []
         self.lines = []
@@ -22,6 +22,7 @@ class World:
         for i,station in enumerate(stations):
             station_seed = seed + i
             station.set_seed(station_seed)
+            
     def get_line_by_name(self, line_name):
         return self.lines_dict[line_name]
     
@@ -106,6 +107,7 @@ class World:
             if train.on_line == False:
                 return False
         return True
+    
     def step(self):
         """
         Advance the simulation by one time step.

@@ -1,0 +1,25 @@
+{"time":"2024-09-24T00:32:10.648826253+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T00:32:10.648842781+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed20_episode_240/wandb/run-20240924_003210-3zts2xbp/logs/debug-core.log"}
+{"time":"2024-09-24T00:32:10.648885559+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T00:32:10.648888781+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed20_episode_240/wandb/run-20240924_003210-3zts2xbp/logs/debug-core.log"}
+{"time":"2024-09-24T00:32:10.666588716+08:00","level":"INFO","msg":"created new stream","id":"3zts2xbp"}
+{"time":"2024-09-24T00:32:10.666617703+08:00","level":"INFO","msg":"stream: started","id":"3zts2xbp"}
+{"time":"2024-09-24T00:32:10.666653266+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"3zts2xbp"}}
+{"time":"2024-09-24T00:32:10.666701685+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"3zts2xbp"}}
+{"time":"2024-09-24T00:32:10.666737565+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3zts2xbp"}}
+{"time":"2024-09-24T00:32:11.054264671+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T00:32:11.055475102+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T01:00:36.80428208+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/3zts2xbp/file_stream"}
+{"time":"2024-09-24T01:00:55.260541861+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/3zts2xbp/file_stream"}
+{"time":"2024-09-24T01:54:41.819407087+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/3zts2xbp/file_stream"}
+{"time":"2024-09-24T03:50:00.648226755+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2024-09-24T04:07:01.35139802+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2024-09-24T04:08:03.322429948+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/3zts2xbp/file_stream"}
+{"time":"2024-09-24T04:11:11.278593237+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/3zts2xbp/file_stream"}
+{"time":"2024-09-24T06:45:19.890378698+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T06:45:19.890850339+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T06:45:22.904702849+08:00","level":"INFO","msg":"stream: closing","id":"3zts2xbp"}
+{"time":"2024-09-24T06:45:22.904717488+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"3zts2xbp"}}
+{"time":"2024-09-24T06:45:22.904734376+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"3zts2xbp"}}
+{"time":"2024-09-24T06:45:22.904819503+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"3zts2xbp"}}
+{"time":"2024-09-24T06:45:22.904826808+08:00","level":"INFO","msg":"stream: closed","id":"3zts2xbp"}

@@ -1,0 +1,18 @@
+{"time":"2024-09-24T13:42:09.981613928+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T13:42:09.981624809+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed25_episode_180_time_3h/wandb/run-20240924_134209-fd1w55u1/logs/debug-core.log"}
+{"time":"2024-09-24T13:42:09.981658177+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T13:42:09.981661206+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed25_episode_180_time_3h/wandb/run-20240924_134209-fd1w55u1/logs/debug-core.log"}
+{"time":"2024-09-24T13:42:09.986423191+08:00","level":"INFO","msg":"created new stream","id":"fd1w55u1"}
+{"time":"2024-09-24T13:42:09.986441346+08:00","level":"INFO","msg":"stream: started","id":"fd1w55u1"}
+{"time":"2024-09-24T13:42:09.986459933+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fd1w55u1"}}
+{"time":"2024-09-24T13:42:09.986518746+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fd1w55u1"}}
+{"time":"2024-09-24T13:42:09.986462446+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"fd1w55u1"}}
+{"time":"2024-09-24T13:42:10.349908087+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T13:42:10.351795424+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T14:43:55.986391781+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T14:43:55.986730823+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T14:43:59.980841195+08:00","level":"INFO","msg":"stream: closing","id":"fd1w55u1"}
+{"time":"2024-09-24T14:43:59.980864604+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"fd1w55u1"}}
+{"time":"2024-09-24T14:43:59.980893053+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fd1w55u1"}}
+{"time":"2024-09-24T14:43:59.98089947+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"fd1w55u1"}}
+{"time":"2024-09-24T14:43:59.98098393+08:00","level":"INFO","msg":"stream: closed","id":"fd1w55u1"}

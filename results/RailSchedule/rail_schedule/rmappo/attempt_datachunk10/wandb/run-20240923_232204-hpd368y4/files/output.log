@@ -1,0 +1,49 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk10 updates 0/520 episodes, total num timesteps 1920/1000000.0, FPS 1235.
+
+{
+    "0": {
+        "speed": 21,
+        "action": "accelerate"
+    },
+    "1": {
+        "speed": 21,
+        "action": "accelerate"
+    },
+    "2": {
+        "speed": 20,
+        "action": "accelerate"
+    }
+}
+average episode rewards is -3760889.296875
+eval average episode rewards of agent: -392693.3
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk10 updates 5/520 episodes, total num timesteps 11520/1000000.0, FPS 1641.
+
+{
+    "0": {
+        "speed": 19,
+        "action": "decelerate"
+    },
+    "1": {
+        "speed": 15,
+        "action": "decelerate"
+    },
+    "2": {
+        "speed": 20,
+        "action": "stay"
+    }
+}
+Traceback (most recent call last):
+  File "main.py", line 132, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 117, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 65, in run
+    env_infos.append(infos[0])
+AttributeError: 'dict' object has no attribute 'append'

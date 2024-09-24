@@ -1,0 +1,11 @@
+{"time":"2024-09-23T15:46:01.60330295+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T15:46:01.60333276+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/mappo/check/wandb/run-20240923_154601-b3z2kpw4/logs/debug-core.log"}
+{"time":"2024-09-23T15:46:01.603451736+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T15:46:01.603460179+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/mappo/check/wandb/run-20240923_154601-b3z2kpw4/logs/debug-core.log"}
+{"time":"2024-09-23T15:46:01.609596215+08:00","level":"INFO","msg":"created new stream","id":"b3z2kpw4"}
+{"time":"2024-09-23T15:46:01.609646159+08:00","level":"INFO","msg":"stream: started","id":"b3z2kpw4"}
+{"time":"2024-09-23T15:46:01.609653076+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"b3z2kpw4"}}
+{"time":"2024-09-23T15:46:01.609694471+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"b3z2kpw4"}}
+{"time":"2024-09-23T15:46:01.609690135+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"b3z2kpw4"}}
+{"time":"2024-09-23T15:46:01.965983868+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T15:46:01.968622819+08:00","level":"INFO","msg":"Starting system monitor"}

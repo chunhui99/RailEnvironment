@@ -1,0 +1,65 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(179)compute_returns()
+-> if self._use_proper_time_limits:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(211)compute_returns()
+-> if self._use_gae:
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(212)compute_returns()
+-> self.value_preds[-1] = next_value
+False
+False
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(213)compute_returns()
+-> gae = 0
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(214)compute_returns()
+-> for step in reversed(range(self.rewards.shape[0])):
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(215)compute_returns()
+-> if self._use_popart or self._use_valuenorm:
+(200, 32, 3, 1)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(216)compute_returns()
+-> if self.algo == "mat" or self.algo == "mat_dec":
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(230)compute_returns()
+-> delta = self.rewards[step] + self.gamma * value_normalizer.denormalize(
+(201, 32, 3, 1)
+(201, 32, 3, 1)
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(231)compute_returns()
+-> self.value_preds[step + 1]) * self.masks[step + 1] \
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(230)compute_returns()
+-> delta = self.rewards[step] + self.gamma * value_normalizer.denormalize(
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(231)compute_returns()
+-> self.value_preds[step + 1]) * self.masks[step + 1] \
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(230)compute_returns()
+-> delta = self.rewards[step] + self.gamma * value_normalizer.denormalize(
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(232)compute_returns()
+-> - value_normalizer.denormalize(self.value_preds[step])
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(230)compute_returns()
+-> delta = self.rewards[step] + self.gamma * value_normalizer.denormalize(
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(233)compute_returns()
+-> gae = delta + self.gamma * self.gae_lambda * self.masks[step + 1] * gae
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(234)compute_returns()
+-> self.returns[step] = gae + value_normalizer.denormalize(self.value_preds[step])
+True
+> /home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py(214)compute_returns()
+-> for step in reversed(range(self.rewards.shape[0])):
+Traceback (most recent call last):
+  File "main.py", line 124, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 109, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 39, in run
+    self.compute()
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/base_runner.py", line 114, in compute
+    self.buffer.compute_returns(next_values, self.trainer.value_normalizer)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py", line 214, in compute_returns
+    gae = 0
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/replay_buffer.py", line 214, in compute_returns
+    gae = 0
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

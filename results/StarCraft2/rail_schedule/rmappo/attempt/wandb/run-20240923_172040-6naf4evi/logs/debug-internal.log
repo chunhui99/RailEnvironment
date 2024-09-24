@@ -1,0 +1,18 @@
+{"time":"2024-09-23T17:20:40.43644276+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T17:20:40.436455764+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/rmappo/attempt/wandb/run-20240923_172040-6naf4evi/logs/debug-core.log"}
+{"time":"2024-09-23T17:20:40.436495453+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T17:20:40.436498917+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/StarCraft2/rail_schedule/rmappo/attempt/wandb/run-20240923_172040-6naf4evi/logs/debug-core.log"}
+{"time":"2024-09-23T17:20:40.454491607+08:00","level":"INFO","msg":"created new stream","id":"6naf4evi"}
+{"time":"2024-09-23T17:20:40.454516122+08:00","level":"INFO","msg":"stream: started","id":"6naf4evi"}
+{"time":"2024-09-23T17:20:40.454532219+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"6naf4evi"}}
+{"time":"2024-09-23T17:20:40.454554938+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"6naf4evi"}}
+{"time":"2024-09-23T17:20:40.45461494+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6naf4evi"}}
+{"time":"2024-09-23T17:20:40.807649047+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T17:20:40.808436755+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-23T17:28:52.927538035+08:00","level":"INFO","msg":"stream: closing","id":"6naf4evi"}
+{"time":"2024-09-23T17:28:52.92756045+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-23T17:28:52.927838074+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-23T17:28:54.211370883+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"6naf4evi"}}
+{"time":"2024-09-23T17:28:54.211431096+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"6naf4evi"}}
+{"time":"2024-09-23T17:28:54.211543453+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"6naf4evi"}}
+{"time":"2024-09-23T17:28:54.211551066+08:00","level":"INFO","msg":"stream: closed","id":"6naf4evi"}

@@ -1,0 +1,21 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 0/520 episodes, total num timesteps 1920/1000000.0, FPS 1497.
+
+average episode rewards is -318815.595703125
+Traceback (most recent call last):
+  File "main.py", line 132, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 117, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 79, in run
+    self.eval(total_num_steps)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 163, in eval
+    if self.eval_envs.action_space[0].__class__.__name__ == 'MultiDiscrete':
+TypeError: 'Discrete' object is not subscriptable

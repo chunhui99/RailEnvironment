@@ -4,7 +4,7 @@ import numpy as np
 # 可能可以抽象出一个该站点的抽象类，包含去向，来向，以及其他线该站点的情况
 
 class Station:
-    def __init__(self, config, station_id, station_name, line, max_capacity, station_position_x, station_position_y, is_transfer = False):
+    def __init__(self, config, station_id, station_name, line, max_capacity, passenger_arrival_time_bin, station_position_x, station_position_y, is_transfer = False):
         """
         Initialize a station.
 
@@ -21,6 +21,8 @@ class Station:
         self.line = line
         self.station_position_x = station_position_x
         self.station_position_y = station_position_y
+        self.passenger_arrival_time_bin = passenger_arrival_time_bin
+
         # 是否是终点站
         if self == self.line.get_end_station():
             self.is_terminal = True
@@ -126,6 +128,7 @@ class Station:
         if not self.is_terminal:
             passengers = self.generate_passengers()
             # print('passengers:', passengers)
+            self.update_wait_times()
             self.add_passengers(passengers)
         # print('self.waiting_passengers:', self.waiting_passengers)
 
@@ -133,8 +136,19 @@ class Station:
         """
         Generate a random number of passengers arriving at the station.
         """
-
-        return self.local_random.randint(0, self.config.max_passengers_per_station_per_interval)
+        current_time = self.get_current_time()
+        # print('current_time:', current_time)
+        single_minute = current_time % 60
+        # current_hour = current_time // 60
+        # # Determine which 3-hour bin we are in
+        # hour_bin = current_hour // 3  # Dividing the day into 3-hour intervals
+        # avg_passengers = self.passenger_arrival_time_bin[hour_bin]
+        miniute_bin = single_minute // 6
+        avg_passengers = self.passenger_arrival_time_bin[miniute_bin]
+        # Set a random fluctuation, e.g., +/- 20% of the average passengers
+        fluctuation_ratio = self.local_random.uniform(0.8, 1.2)  # Fluctuate by 20% up or down
+        passengers = int(avg_passengers * fluctuation_ratio)
+        return passengers
     
     def get_station_name(self):
         """

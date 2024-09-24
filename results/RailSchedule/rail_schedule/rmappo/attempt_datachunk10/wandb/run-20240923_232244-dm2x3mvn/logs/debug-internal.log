@@ -1,0 +1,18 @@
+{"time":"2024-09-23T23:22:44.445025251+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T23:22:44.445054006+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_datachunk10/wandb/run-20240923_232244-dm2x3mvn/logs/debug-core.log"}
+{"time":"2024-09-23T23:22:44.445142431+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T23:22:44.445150711+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_datachunk10/wandb/run-20240923_232244-dm2x3mvn/logs/debug-core.log"}
+{"time":"2024-09-23T23:22:44.451451928+08:00","level":"INFO","msg":"created new stream","id":"dm2x3mvn"}
+{"time":"2024-09-23T23:22:44.451501978+08:00","level":"INFO","msg":"stream: started","id":"dm2x3mvn"}
+{"time":"2024-09-23T23:22:44.451519276+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"dm2x3mvn"}}
+{"time":"2024-09-23T23:22:44.451507529+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"dm2x3mvn"}}
+{"time":"2024-09-23T23:22:44.451561684+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dm2x3mvn"}}
+{"time":"2024-09-23T23:22:44.958881083+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T23:22:44.960639493+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-23T23:32:24.454025423+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-23T23:32:24.454536242+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-23T23:32:26.776791529+08:00","level":"INFO","msg":"stream: closing","id":"dm2x3mvn"}
+{"time":"2024-09-23T23:32:26.776809166+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"dm2x3mvn"}}
+{"time":"2024-09-23T23:32:26.776841641+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dm2x3mvn"}}
+{"time":"2024-09-23T23:32:26.776855071+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"dm2x3mvn"}}
+{"time":"2024-09-23T23:32:26.776940526+08:00","level":"INFO","msg":"stream: closed","id":"dm2x3mvn"}

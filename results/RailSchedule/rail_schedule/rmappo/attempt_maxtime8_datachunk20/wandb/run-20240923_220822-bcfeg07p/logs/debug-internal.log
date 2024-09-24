@@ -1,0 +1,18 @@
+{"time":"2024-09-23T22:08:22.909195146+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T22:08:22.909223336+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_maxtime8_datachunk20/wandb/run-20240923_220822-bcfeg07p/logs/debug-core.log"}
+{"time":"2024-09-23T22:08:22.909312653+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T22:08:22.90932156+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_maxtime8_datachunk20/wandb/run-20240923_220822-bcfeg07p/logs/debug-core.log"}
+{"time":"2024-09-23T22:08:22.915069123+08:00","level":"INFO","msg":"created new stream","id":"bcfeg07p"}
+{"time":"2024-09-23T22:08:22.915115426+08:00","level":"INFO","msg":"stream: started","id":"bcfeg07p"}
+{"time":"2024-09-23T22:08:22.915125621+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"bcfeg07p"}}
+{"time":"2024-09-23T22:08:22.915120595+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"bcfeg07p"}}
+{"time":"2024-09-23T22:08:22.915177866+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bcfeg07p"}}
+{"time":"2024-09-23T22:08:23.218942846+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T22:08:23.220033998+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-23T22:08:23.586487706+08:00","level":"INFO","msg":"stream: closing","id":"bcfeg07p"}
+{"time":"2024-09-23T22:08:23.586527549+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-23T22:08:23.586670932+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-23T22:08:25.343069029+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"bcfeg07p"}}
+{"time":"2024-09-23T22:08:25.343097622+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bcfeg07p"}}
+{"time":"2024-09-23T22:08:25.343167239+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"bcfeg07p"}}
+{"time":"2024-09-23T22:08:25.343223443+08:00","level":"INFO","msg":"stream: closed","id":"bcfeg07p"}

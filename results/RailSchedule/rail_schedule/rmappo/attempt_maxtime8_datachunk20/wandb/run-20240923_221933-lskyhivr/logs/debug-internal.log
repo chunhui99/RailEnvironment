@@ -1,0 +1,18 @@
+{"time":"2024-09-23T22:19:33.068695192+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T22:19:33.068722641+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_maxtime8_datachunk20/wandb/run-20240923_221933-lskyhivr/logs/debug-core.log"}
+{"time":"2024-09-23T22:19:33.068813215+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T22:19:33.068821235+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_maxtime8_datachunk20/wandb/run-20240923_221933-lskyhivr/logs/debug-core.log"}
+{"time":"2024-09-23T22:19:33.07518329+08:00","level":"INFO","msg":"created new stream","id":"lskyhivr"}
+{"time":"2024-09-23T22:19:33.075229552+08:00","level":"INFO","msg":"stream: started","id":"lskyhivr"}
+{"time":"2024-09-23T22:19:33.075247475+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lskyhivr"}}
+{"time":"2024-09-23T22:19:33.075351062+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lskyhivr"}}
+{"time":"2024-09-23T22:19:33.075250793+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"lskyhivr"}}
+{"time":"2024-09-23T22:19:33.451176652+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T22:19:33.452893485+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-23T22:19:36.358719308+08:00","level":"INFO","msg":"stream: closing","id":"lskyhivr"}
+{"time":"2024-09-23T22:19:36.358735588+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-23T22:19:36.358935087+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-23T22:19:37.545878189+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lskyhivr"}}
+{"time":"2024-09-23T22:19:37.546011457+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"lskyhivr"}}
+{"time":"2024-09-23T22:19:37.545996524+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lskyhivr"}}
+{"time":"2024-09-23T22:19:37.546229288+08:00","level":"INFO","msg":"stream: closed","id":"lskyhivr"}

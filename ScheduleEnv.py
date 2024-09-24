@@ -25,10 +25,10 @@ class TrainSchedulingEnv(gym.Env):
         # self._initialize_network()
         self._initialize_network_from_config(network_json)
         self._setup_spaces()
-
         self.is_record = False
         self.control_data = []
         self.traffic_data = []
+        self.default_speed = None
 
     def _load_config(self, config):
         """
@@ -101,15 +101,30 @@ class TrainSchedulingEnv(gym.Env):
         Initialize the railway network based on the configuration file.
         """
         config = network_config
-
+        dual_line_dict = {}
         for line_data in config["lines"]:
-            line = Line(self.world, name=line_data["name"], line_position_y=line_data.get("position_y", 0))
+
+            line_position_y = line_data.get("position_y", 0)
+            line = Line(self.world, name=line_data["name"], line_position_y= line_position_y, forward = line_data["forward"])
+
+            begin_distance=line_data["begin_distance"]
+            
             stations = []
-            for station_data in line_data["stations"]:
+            station_position_xs  = [begin_distance]
+            station_distances = sorted(line_data["station_distances"].items(), key=lambda x: x[0])  
+            # print('station_distances:', station_distances)
+            for value in station_distances:
+                begin_distance += value[1]
+                station_position_xs.append(begin_distance)
+            stationX = [0] + station_position_xs + [station_position_xs[-1] + line_data["end_distance"]]
+            line.stationX = stationX
+            for i, station_data in enumerate(line_data["stations"]):
+                station_position_x = station_position_xs[i] if line.forward else station_position_xs[len(station_position_xs) - i - 1]
                 station = Station(self.config, station_id=station_data["id"], station_name=station_data["name"],
                                   line=line, max_capacity=station_data["capacity"],
-                                  station_position_x=station_data["position_x"],
-                                  station_position_y=station_data["position_y"])
+                                  passenger_arrival_time_bin = station_data["passenger_arrival_time_bin"],
+                                  station_position_x = station_position_x,
+                                  station_position_y = line_position_y)
                 stations.append(station)
             # Set up the line with stations
             station_distance_dict = {(key.split('-')[0],key.split('-')[1]):value for key, value in line_data["station_distances"].items()}
@@ -117,7 +132,16 @@ class TrainSchedulingEnv(gym.Env):
             line.set_line(start_station=stations[0], end_station=stations[-1], stations=stations,
                           station_distances=station_distance_dict,
                           begin_distance=line_data["begin_distance"], end_distance=line_data["end_distance"])
+
+            dual_line_id = line_data["dual_line_id"]
+            if dual_line_id not in dual_line_dict:
+                dual_line_dict[dual_line_id] = [line]
+            else:
+                dual_line_dict[dual_line_id].append(line)
             self.world.add_line(line)
+
+        for key, value in dual_line_dict.items():
+            dual_line = DualLine(value[0], value[1])
 
         for train_data in config["trains"]:
             line = self.world.get_line_by_name(train_data["line"])
@@ -129,26 +153,19 @@ class TrainSchedulingEnv(gym.Env):
 
         self.world.init_train_to_line()
 
+    def set_all_speed(self, speed):
+        for train in self.world.get_trains():
+            train.default_speed = speed
+            train.speed = speed
+        self.default_speed = speed
+
     def sample_action(self):
         """
         Sample a random action for each train based on its current state.
         
         :return: List of sampled actions for each train, ensuring that only valid actions are chosen.
         """
-        actions = []
-        
-        for train in self.world.get_trains():
-            if train.moving:
-                # If the train is moving, valid actions are: accelerate, decelerate, stay
-                valid_actions = [0, 1, 2]  # Assuming 0: accelerate, 1: decelerate, 2: stay
-            else:
-                # If the train is not moving, valid actions are: depart, stay
-                valid_actions = [3, 4]  # Assuming 3: depart, 4: stay
-
-            # Sample a valid action for the train
-            action = np.random.choice(valid_actions)
-            actions.append(action)
-        print('world.get_trains():', self.world.get_trains())
+        actions = [np.random.choice([0, 1, 2]) for train in self.world.get_trains()]
         return actions
 
     def _setup_spaces(self):
@@ -156,9 +173,7 @@ class TrainSchedulingEnv(gym.Env):
         Define the action and observation spaces for the environment.
         """
         # Example action space: for each train, if moving, decide to accelerate, decelerate, or maintain speed; if not moving, stay or depart
-        self.action_space = spaces.Discrete(5)
-
-        print('self.world.get_train_num():' , self.world.get_train_num())
+        self.action_space = spaces.Discrete(self.config.action_space_dim)
         
         # Observation space 
         train_obs_dim = self.config.obs_dim  # Example dimension
@@ -188,14 +203,24 @@ class TrainSchedulingEnv(gym.Env):
         observations = self._get_observations(self.agents)
 
         # Calculate rewards (example: minimize total passenger waiting time)
-        reward = self._calculate_reward()
-        reward = np.array([reward] * len(self.agents))
+        if not collision:
+            reward = self._calculate_reward()
+            reward = np.array([reward] * len(self.agents))
+        else:
+            reward = np.array([-10000000] * len(self.agents))
         # Check if done 时间到了或者发生碰撞都结束
         done = self.world.current_time >= self.config.max_time or collision
+
         done = np.array([done] * len(self.agents))
 
         # Optionally, collect additional info
-        info = {}
+        info = {
+            agent.train_id: {
+                'speed': agent.speed,
+                'action': agent.action_dict[np.argmax(agent.action)]
+            } for agent in self.agents
+        }
+
 
         return observations, reward, done, info
 
@@ -207,7 +232,11 @@ class TrainSchedulingEnv(gym.Env):
         """
         # Reset world
         self.world = World(self.config)
-        self._initialize_network()
+        network_json = json.load(open(self.config.network_config_path))
+        # self._initialize_network()
+        self._initialize_network_from_config(network_json)
+        if self.default_speed is not None:
+            self.set_all_speed(self.default_speed)
         self.current_time = 0
         self.world.set_seed(self.seed)
         # Reset observations
@@ -248,7 +277,13 @@ class TrainSchedulingEnv(gym.Env):
         """
         total_waiting = sum(station.get_total_wait_time() for station in self.world.get_stations())
         # Example reward: negative of total waiting time (to minimize waiting time)
-        reward = -total_waiting
+        current_time = self.world.current_time
+        if (current_time + 1) % self.config.reward_time_interval == 0:
+        # Minimize total waiting time
+            reward = - total_waiting
+        else:
+        # Set small penalties for time passing
+            reward = - 0.1 * total_waiting
         return reward
 
     def set_seed(self, seed=None):
@@ -264,6 +299,7 @@ if __name__ == "__main__":
     done = False
     while not done:
         actions = [env.sample_action() for _ in range(3)]
+        actions = np.eye(config.action_space_dim)[actions]
         # print("Action:", action)
         obs, reward, done, info = env.step(actions)
         # env.render()

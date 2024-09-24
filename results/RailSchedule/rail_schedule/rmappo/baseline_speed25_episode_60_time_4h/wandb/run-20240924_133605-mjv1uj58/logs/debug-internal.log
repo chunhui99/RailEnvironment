@@ -1,0 +1,18 @@
+{"time":"2024-09-24T13:36:05.600655977+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T13:36:05.600665881+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed25_episode_60_time_4h/wandb/run-20240924_133605-mjv1uj58/logs/debug-core.log"}
+{"time":"2024-09-24T13:36:05.600698047+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T13:36:05.600700742+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed25_episode_60_time_4h/wandb/run-20240924_133605-mjv1uj58/logs/debug-core.log"}
+{"time":"2024-09-24T13:36:05.614708923+08:00","level":"INFO","msg":"created new stream","id":"mjv1uj58"}
+{"time":"2024-09-24T13:36:05.614730593+08:00","level":"INFO","msg":"stream: started","id":"mjv1uj58"}
+{"time":"2024-09-24T13:36:05.614765068+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"mjv1uj58"}}
+{"time":"2024-09-24T13:36:05.614843075+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mjv1uj58"}}
+{"time":"2024-09-24T13:36:05.614986805+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"mjv1uj58"}}
+{"time":"2024-09-24T13:36:06.032840933+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T13:36:06.039711573+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T13:36:30.83072788+08:00","level":"INFO","msg":"stream: closing","id":"mjv1uj58"}
+{"time":"2024-09-24T13:36:30.831619184+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T13:36:30.832589928+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T13:36:33.771518793+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"mjv1uj58"}}
+{"time":"2024-09-24T13:36:33.771564723+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mjv1uj58"}}
+{"time":"2024-09-24T13:36:33.771637913+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"mjv1uj58"}}
+{"time":"2024-09-24T13:36:33.771647341+08:00","level":"INFO","msg":"stream: closed","id":"mjv1uj58"}

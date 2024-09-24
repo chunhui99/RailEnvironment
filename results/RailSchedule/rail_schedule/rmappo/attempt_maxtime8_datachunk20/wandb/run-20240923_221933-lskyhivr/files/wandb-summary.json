@@ -1,0 +1,1 @@
+{"_step":1920,"ratio":0.9990651607513428,"value_loss":1.1881803035736085,"critic_grad_norm":3.1151914596557617,"_runtime":3.292714435,"dist_entropy":1.0952796459197998,"_wandb":{"runtime":3},"average_episode_rewards":-318815.595703125,"_timestamp":1.7271011763140547e+09,"actor_grad_norm":0.1050477847456932,"policy_loss":-0.002577369392987568}

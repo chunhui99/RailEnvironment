@@ -1,0 +1,11 @@
+{"time":"2024-09-24T12:32:13.984760237+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T12:32:13.984787692+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed15_episode_60/wandb/run-20240924_123213-ldgbtybb/logs/debug-core.log"}
+{"time":"2024-09-24T12:32:13.98487926+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T12:32:13.984888195+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed15_episode_60/wandb/run-20240924_123213-ldgbtybb/logs/debug-core.log"}
+{"time":"2024-09-24T12:32:13.991256814+08:00","level":"INFO","msg":"created new stream","id":"ldgbtybb"}
+{"time":"2024-09-24T12:32:13.991305851+08:00","level":"INFO","msg":"stream: started","id":"ldgbtybb"}
+{"time":"2024-09-24T12:32:13.991338551+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ldgbtybb"}}
+{"time":"2024-09-24T12:32:13.991362891+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ldgbtybb"}}
+{"time":"2024-09-24T12:32:13.991342629+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ldgbtybb"}}
+{"time":"2024-09-24T12:32:14.340041004+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T12:32:14.343857418+08:00","level":"INFO","msg":"Starting system monitor"}

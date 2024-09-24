@@ -1,0 +1,2958 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 0/5208 episodes, total num timesteps 1920/10000000, FPS 579.
+
+average episode rewards is -1235370.3515625
+eval average episode rewards of agent: -299286.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 5/5208 episodes, total num timesteps 11520/10000000, FPS 464.
+
+average episode rewards is -299334.111328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 10/5208 episodes, total num timesteps 21120/10000000, FPS 417.
+
+average episode rewards is -296635.95703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 15/5208 episodes, total num timesteps 30720/10000000, FPS 436.
+
+average episode rewards is -294278.115234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 20/5208 episodes, total num timesteps 40320/10000000, FPS 443.
+
+average episode rewards is -295947.041015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 25/5208 episodes, total num timesteps 49920/10000000, FPS 434.
+
+average episode rewards is -293639.033203125
+eval average episode rewards of agent: -291786.79999999993
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 30/5208 episodes, total num timesteps 59520/10000000, FPS 428.
+
+average episode rewards is -294743.61328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 35/5208 episodes, total num timesteps 69120/10000000, FPS 431.
+
+average episode rewards is -293938.30078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 40/5208 episodes, total num timesteps 78720/10000000, FPS 429.
+
+average episode rewards is -289094.853515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 45/5208 episodes, total num timesteps 88320/10000000, FPS 421.
+
+average episode rewards is -287299.013671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 50/5208 episodes, total num timesteps 97920/10000000, FPS 420.
+
+average episode rewards is -287881.494140625
+eval average episode rewards of agent: -292136.3999999999
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 55/5208 episodes, total num timesteps 107520/10000000, FPS 428.
+
+average episode rewards is -286511.806640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 60/5208 episodes, total num timesteps 117120/10000000, FPS 425.
+
+average episode rewards is -283102.529296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 65/5208 episodes, total num timesteps 126720/10000000, FPS 422.
+
+average episode rewards is -282551.42578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 70/5208 episodes, total num timesteps 136320/10000000, FPS 420.
+
+average episode rewards is -281774.443359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 75/5208 episodes, total num timesteps 145920/10000000, FPS 414.
+
+average episode rewards is -281276.337890625
+eval average episode rewards of agent: -291786.79999999993
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 80/5208 episodes, total num timesteps 155520/10000000, FPS 415.
+
+average episode rewards is -282097.32421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 85/5208 episodes, total num timesteps 165120/10000000, FPS 414.
+
+average episode rewards is -281551.318359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 90/5208 episodes, total num timesteps 174720/10000000, FPS 410.
+
+average episode rewards is -281713.30078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 95/5208 episodes, total num timesteps 184320/10000000, FPS 409.
+
+average episode rewards is -283267.236328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 100/5208 episodes, total num timesteps 193920/10000000, FPS 411.
+
+average episode rewards is -282297.216796875
+eval average episode rewards of agent: -291786.79999999993
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 105/5208 episodes, total num timesteps 203520/10000000, FPS 412.
+
+average episode rewards is -282206.865234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 110/5208 episodes, total num timesteps 213120/10000000, FPS 414.
+
+average episode rewards is -281981.923828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 115/5208 episodes, total num timesteps 222720/10000000, FPS 416.
+
+average episode rewards is -280803.1640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 120/5208 episodes, total num timesteps 232320/10000000, FPS 419.
+
+average episode rewards is -272718.486328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 125/5208 episodes, total num timesteps 241920/10000000, FPS 418.
+
+average episode rewards is -270035.80078125
+eval average episode rewards of agent: -281157.0
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 130/5208 episodes, total num timesteps 251520/10000000, FPS 415.
+
+average episode rewards is -269240.361328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 135/5208 episodes, total num timesteps 261120/10000000, FPS 410.
+
+average episode rewards is -267429.140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 140/5208 episodes, total num timesteps 270720/10000000, FPS 410.
+
+average episode rewards is -266456.220703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 145/5208 episodes, total num timesteps 280320/10000000, FPS 410.
+
+average episode rewards is -266148.896484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 150/5208 episodes, total num timesteps 289920/10000000, FPS 410.
+
+average episode rewards is -266858.96484375
+eval average episode rewards of agent: -280371.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 155/5208 episodes, total num timesteps 299520/10000000, FPS 410.
+
+average episode rewards is -265098.22265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 160/5208 episodes, total num timesteps 309120/10000000, FPS 409.
+
+average episode rewards is -265982.05078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 165/5208 episodes, total num timesteps 318720/10000000, FPS 409.
+
+average episode rewards is -264644.384765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 170/5208 episodes, total num timesteps 328320/10000000, FPS 410.
+
+average episode rewards is -265134.43359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 175/5208 episodes, total num timesteps 337920/10000000, FPS 411.
+
+average episode rewards is -265197.71484375
+eval average episode rewards of agent: -274766.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 180/5208 episodes, total num timesteps 347520/10000000, FPS 410.
+
+average episode rewards is -264127.67578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 185/5208 episodes, total num timesteps 357120/10000000, FPS 412.
+
+average episode rewards is -265624.658203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 190/5208 episodes, total num timesteps 366720/10000000, FPS 410.
+
+average episode rewards is -267115.166015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 195/5208 episodes, total num timesteps 376320/10000000, FPS 410.
+
+average episode rewards is -271626.97265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 200/5208 episodes, total num timesteps 385920/10000000, FPS 411.
+
+average episode rewards is -270545.361328125
+eval average episode rewards of agent: -274766.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 205/5208 episodes, total num timesteps 395520/10000000, FPS 410.
+
+average episode rewards is -276456.650390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 210/5208 episodes, total num timesteps 405120/10000000, FPS 411.
+
+average episode rewards is -279838.623046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 215/5208 episodes, total num timesteps 414720/10000000, FPS 413.
+
+average episode rewards is -278989.365234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 220/5208 episodes, total num timesteps 424320/10000000, FPS 412.
+
+average episode rewards is -286190.302734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 225/5208 episodes, total num timesteps 433920/10000000, FPS 413.
+
+average episode rewards is -281529.462890625
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 230/5208 episodes, total num timesteps 443520/10000000, FPS 412.
+
+average episode rewards is -290060.5078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 235/5208 episodes, total num timesteps 453120/10000000, FPS 411.
+
+average episode rewards is -289878.046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 240/5208 episodes, total num timesteps 462720/10000000, FPS 411.
+
+average episode rewards is -262190.68359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 245/5208 episodes, total num timesteps 472320/10000000, FPS 411.
+
+average episode rewards is -262714.86328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 250/5208 episodes, total num timesteps 481920/10000000, FPS 411.
+
+average episode rewards is -262468.388671875
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 255/5208 episodes, total num timesteps 491520/10000000, FPS 412.
+
+average episode rewards is -262921.728515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 260/5208 episodes, total num timesteps 501120/10000000, FPS 412.
+
+average episode rewards is -262642.001953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 265/5208 episodes, total num timesteps 510720/10000000, FPS 412.
+
+average episode rewards is -264008.3203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 270/5208 episodes, total num timesteps 520320/10000000, FPS 413.
+
+average episode rewards is -264046.845703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 275/5208 episodes, total num timesteps 529920/10000000, FPS 411.
+
+average episode rewards is -263683.095703125
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 280/5208 episodes, total num timesteps 539520/10000000, FPS 411.
+
+average episode rewards is -264740.654296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 285/5208 episodes, total num timesteps 549120/10000000, FPS 412.
+
+average episode rewards is -264052.6171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 290/5208 episodes, total num timesteps 558720/10000000, FPS 412.
+
+average episode rewards is -264831.005859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 295/5208 episodes, total num timesteps 568320/10000000, FPS 413.
+
+average episode rewards is -261879.873046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 300/5208 episodes, total num timesteps 577920/10000000, FPS 413.
+
+average episode rewards is -261867.451171875
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 305/5208 episodes, total num timesteps 587520/10000000, FPS 414.
+
+average episode rewards is -262062.94921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 310/5208 episodes, total num timesteps 597120/10000000, FPS 414.
+
+average episode rewards is -262371.708984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 315/5208 episodes, total num timesteps 606720/10000000, FPS 414.
+
+average episode rewards is -262816.40625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 320/5208 episodes, total num timesteps 616320/10000000, FPS 414.
+
+average episode rewards is -263948.3203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 325/5208 episodes, total num timesteps 625920/10000000, FPS 413.
+
+average episode rewards is -265355.68359375
+eval average episode rewards of agent: -276055.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 330/5208 episodes, total num timesteps 635520/10000000, FPS 411.
+
+average episode rewards is -264468.28125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 335/5208 episodes, total num timesteps 645120/10000000, FPS 412.
+
+average episode rewards is -264033.896484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 340/5208 episodes, total num timesteps 654720/10000000, FPS 410.
+
+average episode rewards is -263426.923828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 345/5208 episodes, total num timesteps 664320/10000000, FPS 410.
+
+average episode rewards is -263951.19140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 350/5208 episodes, total num timesteps 673920/10000000, FPS 411.
+
+average episode rewards is -265144.013671875
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 355/5208 episodes, total num timesteps 683520/10000000, FPS 411.
+
+average episode rewards is -262809.287109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 360/5208 episodes, total num timesteps 693120/10000000, FPS 411.
+
+average episode rewards is -262363.0078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 365/5208 episodes, total num timesteps 702720/10000000, FPS 411.
+
+average episode rewards is -262784.384765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 370/5208 episodes, total num timesteps 712320/10000000, FPS 410.
+
+average episode rewards is -263105.21484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 375/5208 episodes, total num timesteps 721920/10000000, FPS 410.
+
+average episode rewards is -263465.595703125
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 380/5208 episodes, total num timesteps 731520/10000000, FPS 410.
+
+average episode rewards is -265036.69921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 385/5208 episodes, total num timesteps 741120/10000000, FPS 411.
+
+average episode rewards is -265673.232421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 390/5208 episodes, total num timesteps 750720/10000000, FPS 410.
+
+average episode rewards is -265709.23828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 395/5208 episodes, total num timesteps 760320/10000000, FPS 410.
+
+average episode rewards is -266625.380859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 400/5208 episodes, total num timesteps 769920/10000000, FPS 409.
+
+average episode rewards is -265806.03515625
+eval average episode rewards of agent: -276055.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 405/5208 episodes, total num timesteps 779520/10000000, FPS 410.
+
+average episode rewards is -266065.4296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 410/5208 episodes, total num timesteps 789120/10000000, FPS 411.
+
+average episode rewards is -265132.8515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 415/5208 episodes, total num timesteps 798720/10000000, FPS 412.
+
+average episode rewards is -263370.52734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 420/5208 episodes, total num timesteps 808320/10000000, FPS 412.
+
+average episode rewards is -263387.34375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 425/5208 episodes, total num timesteps 817920/10000000, FPS 411.
+
+average episode rewards is -263838.1640625
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 430/5208 episodes, total num timesteps 827520/10000000, FPS 410.
+
+average episode rewards is -264173.173828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 435/5208 episodes, total num timesteps 837120/10000000, FPS 411.
+
+average episode rewards is -265034.384765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 440/5208 episodes, total num timesteps 846720/10000000, FPS 411.
+
+average episode rewards is -264070.283203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 445/5208 episodes, total num timesteps 856320/10000000, FPS 411.
+
+average episode rewards is -263349.55078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 450/5208 episodes, total num timesteps 865920/10000000, FPS 411.
+
+average episode rewards is -263205.380859375
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 455/5208 episodes, total num timesteps 875520/10000000, FPS 410.
+
+average episode rewards is -263830.634765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 460/5208 episodes, total num timesteps 885120/10000000, FPS 411.
+
+average episode rewards is -263426.865234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 465/5208 episodes, total num timesteps 894720/10000000, FPS 412.
+
+average episode rewards is -264541.93359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 470/5208 episodes, total num timesteps 904320/10000000, FPS 413.
+
+average episode rewards is -264475.25390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 475/5208 episodes, total num timesteps 913920/10000000, FPS 411.
+
+average episode rewards is -262355.21484375
+eval average episode rewards of agent: -274766.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 480/5208 episodes, total num timesteps 923520/10000000, FPS 411.
+
+average episode rewards is -264299.82421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 485/5208 episodes, total num timesteps 933120/10000000, FPS 411.
+
+average episode rewards is -266525.537109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 490/5208 episodes, total num timesteps 942720/10000000, FPS 411.
+
+average episode rewards is -270848.642578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 495/5208 episodes, total num timesteps 952320/10000000, FPS 410.
+
+average episode rewards is -270069.2578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 500/5208 episodes, total num timesteps 961920/10000000, FPS 411.
+
+average episode rewards is -276069.873046875
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 505/5208 episodes, total num timesteps 971520/10000000, FPS 411.
+
+average episode rewards is -279692.138671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 510/5208 episodes, total num timesteps 981120/10000000, FPS 411.
+
+average episode rewards is -278743.30078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 515/5208 episodes, total num timesteps 990720/10000000, FPS 411.
+
+average episode rewards is -285718.330078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 520/5208 episodes, total num timesteps 1000320/10000000, FPS 411.
+
+average episode rewards is -280942.03125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 525/5208 episodes, total num timesteps 1009920/10000000, FPS 411.
+
+average episode rewards is -289681.7578125
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 530/5208 episodes, total num timesteps 1019520/10000000, FPS 412.
+
+average episode rewards is -289667.607421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 535/5208 episodes, total num timesteps 1029120/10000000, FPS 412.
+
+average episode rewards is -262075.634765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 540/5208 episodes, total num timesteps 1038720/10000000, FPS 411.
+
+average episode rewards is -262172.109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 545/5208 episodes, total num timesteps 1048320/10000000, FPS 411.
+
+average episode rewards is -262298.61328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 550/5208 episodes, total num timesteps 1057920/10000000, FPS 410.
+
+average episode rewards is -262852.91015625
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 555/5208 episodes, total num timesteps 1067520/10000000, FPS 410.
+
+average episode rewards is -262669.541015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 560/5208 episodes, total num timesteps 1077120/10000000, FPS 410.
+
+average episode rewards is -263861.54296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 565/5208 episodes, total num timesteps 1086720/10000000, FPS 409.
+
+average episode rewards is -263544.7265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 570/5208 episodes, total num timesteps 1096320/10000000, FPS 408.
+
+average episode rewards is -263470.107421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 575/5208 episodes, total num timesteps 1105920/10000000, FPS 408.
+
+average episode rewards is -264087.158203125
+eval average episode rewards of agent: -274656.3
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 580/5208 episodes, total num timesteps 1115520/10000000, FPS 407.
+
+average episode rewards is -263669.53125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 585/5208 episodes, total num timesteps 1125120/10000000, FPS 407.
+
+average episode rewards is -264673.447265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 590/5208 episodes, total num timesteps 1134720/10000000, FPS 406.
+
+average episode rewards is -261679.1015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 595/5208 episodes, total num timesteps 1144320/10000000, FPS 405.
+
+average episode rewards is -261889.3359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 600/5208 episodes, total num timesteps 1153920/10000000, FPS 403.
+
+average episode rewards is -262511.279296875
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 605/5208 episodes, total num timesteps 1163520/10000000, FPS 402.
+
+average episode rewards is -262340.888671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 610/5208 episodes, total num timesteps 1173120/10000000, FPS 401.
+
+average episode rewards is -262826.1328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 615/5208 episodes, total num timesteps 1182720/10000000, FPS 401.
+
+average episode rewards is -262700.947265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 620/5208 episodes, total num timesteps 1192320/10000000, FPS 400.
+
+average episode rewards is -263292.59765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 625/5208 episodes, total num timesteps 1201920/10000000, FPS 399.
+
+average episode rewards is -262987.96875
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 630/5208 episodes, total num timesteps 1211520/10000000, FPS 399.
+
+average episode rewards is -263609.70703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 635/5208 episodes, total num timesteps 1221120/10000000, FPS 398.
+
+average episode rewards is -263132.548828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 640/5208 episodes, total num timesteps 1230720/10000000, FPS 398.
+
+average episode rewards is -263926.7578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 645/5208 episodes, total num timesteps 1240320/10000000, FPS 398.
+
+average episode rewards is -265004.23828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 650/5208 episodes, total num timesteps 1249920/10000000, FPS 397.
+
+average episode rewards is -261936.03515625
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 655/5208 episodes, total num timesteps 1259520/10000000, FPS 395.
+
+average episode rewards is -262106.25
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 660/5208 episodes, total num timesteps 1269120/10000000, FPS 394.
+
+average episode rewards is -262440.76171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 665/5208 episodes, total num timesteps 1278720/10000000, FPS 393.
+
+average episode rewards is -262635.498046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 670/5208 episodes, total num timesteps 1288320/10000000, FPS 393.
+
+average episode rewards is -263266.69921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 675/5208 episodes, total num timesteps 1297920/10000000, FPS 393.
+
+average episode rewards is -263586.50390625
+eval average episode rewards of agent: -274647.4
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 680/5208 episodes, total num timesteps 1307520/10000000, FPS 392.
+
+average episode rewards is -263841.357421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 685/5208 episodes, total num timesteps 1317120/10000000, FPS 391.
+
+average episode rewards is -264163.53515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 690/5208 episodes, total num timesteps 1326720/10000000, FPS 391.
+
+average episode rewards is -264732.3046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 695/5208 episodes, total num timesteps 1336320/10000000, FPS 390.
+
+average episode rewards is -262975.341796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 700/5208 episodes, total num timesteps 1345920/10000000, FPS 390.
+
+average episode rewards is -264171.97265625
+eval average episode rewards of agent: -273616.0
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 705/5208 episodes, total num timesteps 1355520/10000000, FPS 389.
+
+average episode rewards is -264025.810546875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 710/5208 episodes, total num timesteps 1365120/10000000, FPS 388.
+
+average episode rewards is -261924.66796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 715/5208 episodes, total num timesteps 1374720/10000000, FPS 388.
+
+average episode rewards is -262436.748046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 720/5208 episodes, total num timesteps 1384320/10000000, FPS 387.
+
+average episode rewards is -262568.02734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 725/5208 episodes, total num timesteps 1393920/10000000, FPS 386.
+
+average episode rewards is -263395.13671875
+eval average episode rewards of agent: -274427.6
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 730/5208 episodes, total num timesteps 1403520/10000000, FPS 386.
+
+average episode rewards is -263958.22265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 735/5208 episodes, total num timesteps 1413120/10000000, FPS 386.
+
+average episode rewards is -263133.45703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 740/5208 episodes, total num timesteps 1422720/10000000, FPS 386.
+
+average episode rewards is -262312.67578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 745/5208 episodes, total num timesteps 1432320/10000000, FPS 384.
+
+average episode rewards is -262275.615234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 750/5208 episodes, total num timesteps 1441920/10000000, FPS 384.
+
+average episode rewards is -263035.6640625
+eval average episode rewards of agent: -273616.0
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 755/5208 episodes, total num timesteps 1451520/10000000, FPS 383.
+
+average episode rewards is -262348.53515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 760/5208 episodes, total num timesteps 1461120/10000000, FPS 383.
+
+average episode rewards is -263557.822265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 765/5208 episodes, total num timesteps 1470720/10000000, FPS 381.
+
+average episode rewards is -263499.169921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 770/5208 episodes, total num timesteps 1480320/10000000, FPS 382.
+
+average episode rewards is -261315.263671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 775/5208 episodes, total num timesteps 1489920/10000000, FPS 381.
+
+average episode rewards is -263291.42578125
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 780/5208 episodes, total num timesteps 1499520/10000000, FPS 380.
+
+average episode rewards is -265539.7265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 785/5208 episodes, total num timesteps 1509120/10000000, FPS 379.
+
+average episode rewards is -270038.994140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 790/5208 episodes, total num timesteps 1518720/10000000, FPS 379.
+
+average episode rewards is -269421.4453125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 795/5208 episodes, total num timesteps 1528320/10000000, FPS 378.
+
+average episode rewards is -274845.615234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 800/5208 episodes, total num timesteps 1537920/10000000, FPS 378.
+
+average episode rewards is -278393.994140625
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 805/5208 episodes, total num timesteps 1547520/10000000, FPS 377.
+
+average episode rewards is -277773.22265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 810/5208 episodes, total num timesteps 1557120/10000000, FPS 377.
+
+average episode rewards is -284716.40625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 815/5208 episodes, total num timesteps 1566720/10000000, FPS 377.
+
+average episode rewards is -280109.1796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 820/5208 episodes, total num timesteps 1576320/10000000, FPS 376.
+
+average episode rewards is -288517.353515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 825/5208 episodes, total num timesteps 1585920/10000000, FPS 376.
+
+average episode rewards is -288723.57421875
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 830/5208 episodes, total num timesteps 1595520/10000000, FPS 375.
+
+average episode rewards is -260834.58984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 835/5208 episodes, total num timesteps 1605120/10000000, FPS 375.
+
+average episode rewards is -261129.990234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 840/5208 episodes, total num timesteps 1614720/10000000, FPS 375.
+
+average episode rewards is -261309.55078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 845/5208 episodes, total num timesteps 1624320/10000000, FPS 374.
+
+average episode rewards is -261756.38671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 850/5208 episodes, total num timesteps 1633920/10000000, FPS 374.
+
+average episode rewards is -261567.83203125
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 855/5208 episodes, total num timesteps 1643520/10000000, FPS 374.
+
+average episode rewards is -262024.423828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 860/5208 episodes, total num timesteps 1653120/10000000, FPS 374.
+
+average episode rewards is -261970.283203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 865/5208 episodes, total num timesteps 1662720/10000000, FPS 374.
+
+average episode rewards is -262483.65234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 870/5208 episodes, total num timesteps 1672320/10000000, FPS 374.
+
+average episode rewards is -262347.099609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 875/5208 episodes, total num timesteps 1681920/10000000, FPS 373.
+
+average episode rewards is -262663.30078125
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 880/5208 episodes, total num timesteps 1691520/10000000, FPS 372.
+
+average episode rewards is -263851.669921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 885/5208 episodes, total num timesteps 1701120/10000000, FPS 372.
+
+average episode rewards is -260805.46875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 890/5208 episodes, total num timesteps 1710720/10000000, FPS 372.
+
+average episode rewards is -260999.82421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 895/5208 episodes, total num timesteps 1720320/10000000, FPS 371.
+
+average episode rewards is -261101.748046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 900/5208 episodes, total num timesteps 1729920/10000000, FPS 370.
+
+average episode rewards is -261285.263671875
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 905/5208 episodes, total num timesteps 1739520/10000000, FPS 370.
+
+average episode rewards is -261828.8671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 910/5208 episodes, total num timesteps 1749120/10000000, FPS 369.
+
+average episode rewards is -261784.013671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 915/5208 episodes, total num timesteps 1758720/10000000, FPS 369.
+
+average episode rewards is -262240.78125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 920/5208 episodes, total num timesteps 1768320/10000000, FPS 368.
+
+average episode rewards is -262079.296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 925/5208 episodes, total num timesteps 1777920/10000000, FPS 367.
+
+average episode rewards is -262614.345703125
+eval average episode rewards of agent: -273611.9
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 930/5208 episodes, total num timesteps 1787520/10000000, FPS 367.
+
+average episode rewards is -259523.408203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 935/5208 episodes, total num timesteps 1797120/10000000, FPS 367.
+
+average episode rewards is -255550.048828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 940/5208 episodes, total num timesteps 1806720/10000000, FPS 367.
+
+average episode rewards is -256497.216796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 945/5208 episodes, total num timesteps 1816320/10000000, FPS 366.
+
+average episode rewards is -253335.673828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 950/5208 episodes, total num timesteps 1825920/10000000, FPS 366.
+
+average episode rewards is -253236.357421875
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 955/5208 episodes, total num timesteps 1835520/10000000, FPS 365.
+
+average episode rewards is -253539.08203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 960/5208 episodes, total num timesteps 1845120/10000000, FPS 365.
+
+average episode rewards is -254135.947265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 965/5208 episodes, total num timesteps 1854720/10000000, FPS 364.
+
+average episode rewards is -254702.578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 970/5208 episodes, total num timesteps 1864320/10000000, FPS 364.
+
+average episode rewards is -254503.798828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 975/5208 episodes, total num timesteps 1873920/10000000, FPS 364.
+
+average episode rewards is -255711.064453125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 980/5208 episodes, total num timesteps 1883520/10000000, FPS 364.
+
+average episode rewards is -255630.322265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 985/5208 episodes, total num timesteps 1893120/10000000, FPS 364.
+
+average episode rewards is -256241.71875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 990/5208 episodes, total num timesteps 1902720/10000000, FPS 364.
+
+average episode rewards is -255118.359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 995/5208 episodes, total num timesteps 1912320/10000000, FPS 363.
+
+average episode rewards is -255843.486328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1000/5208 episodes, total num timesteps 1921920/10000000, FPS 363.
+
+average episode rewards is -256261.11328125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1005/5208 episodes, total num timesteps 1931520/10000000, FPS 363.
+
+average episode rewards is -254208.720703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1010/5208 episodes, total num timesteps 1941120/10000000, FPS 362.
+
+average episode rewards is -254104.27734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1015/5208 episodes, total num timesteps 1950720/10000000, FPS 361.
+
+average episode rewards is -254688.57421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1020/5208 episodes, total num timesteps 1960320/10000000, FPS 361.
+
+average episode rewards is -256130.21484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1025/5208 episodes, total num timesteps 1969920/10000000, FPS 361.
+
+average episode rewards is -256268.759765625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1030/5208 episodes, total num timesteps 1979520/10000000, FPS 361.
+
+average episode rewards is -255187.529296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1035/5208 episodes, total num timesteps 1989120/10000000, FPS 360.
+
+average episode rewards is -254364.2578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1040/5208 episodes, total num timesteps 1998720/10000000, FPS 360.
+
+average episode rewards is -254322.568359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1045/5208 episodes, total num timesteps 2008320/10000000, FPS 360.
+
+average episode rewards is -254334.9609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1050/5208 episodes, total num timesteps 2017920/10000000, FPS 360.
+
+average episode rewards is -254750.625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1055/5208 episodes, total num timesteps 2027520/10000000, FPS 360.
+
+average episode rewards is -255640.986328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1060/5208 episodes, total num timesteps 2037120/10000000, FPS 360.
+
+average episode rewards is -255700.6640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1065/5208 episodes, total num timesteps 2046720/10000000, FPS 359.
+
+average episode rewards is -254091.884765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1070/5208 episodes, total num timesteps 2056320/10000000, FPS 359.
+
+average episode rewards is -256218.1640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1075/5208 episodes, total num timesteps 2065920/10000000, FPS 359.
+
+average episode rewards is -257809.62890625
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1080/5208 episodes, total num timesteps 2075520/10000000, FPS 359.
+
+average episode rewards is -262057.8515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1085/5208 episodes, total num timesteps 2085120/10000000, FPS 359.
+
+average episode rewards is -261873.779296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1090/5208 episodes, total num timesteps 2094720/10000000, FPS 359.
+
+average episode rewards is -266006.07421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1095/5208 episodes, total num timesteps 2104320/10000000, FPS 358.
+
+average episode rewards is -270728.96484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1100/5208 episodes, total num timesteps 2113920/10000000, FPS 358.
+
+average episode rewards is -270275.33203125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1105/5208 episodes, total num timesteps 2123520/10000000, FPS 358.
+
+average episode rewards is -270878.84765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1110/5208 episodes, total num timesteps 2133120/10000000, FPS 358.
+
+average episode rewards is -272727.861328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1115/5208 episodes, total num timesteps 2142720/10000000, FPS 357.
+
+average episode rewards is -281153.61328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1120/5208 episodes, total num timesteps 2152320/10000000, FPS 357.
+
+average episode rewards is -281281.34765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1125/5208 episodes, total num timesteps 2161920/10000000, FPS 356.
+
+average episode rewards is -253145.361328125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1130/5208 episodes, total num timesteps 2171520/10000000, FPS 356.
+
+average episode rewards is -253293.046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1135/5208 episodes, total num timesteps 2181120/10000000, FPS 356.
+
+average episode rewards is -254076.826171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1140/5208 episodes, total num timesteps 2190720/10000000, FPS 356.
+
+average episode rewards is -253859.736328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1145/5208 episodes, total num timesteps 2200320/10000000, FPS 355.
+
+average episode rewards is -253770.087890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1150/5208 episodes, total num timesteps 2209920/10000000, FPS 355.
+
+average episode rewards is -254000.21484375
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1155/5208 episodes, total num timesteps 2219520/10000000, FPS 355.
+
+average episode rewards is -255137.63671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1160/5208 episodes, total num timesteps 2229120/10000000, FPS 355.
+
+average episode rewards is -254890.576171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1165/5208 episodes, total num timesteps 2238720/10000000, FPS 355.
+
+average episode rewards is -254578.7109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1170/5208 episodes, total num timesteps 2248320/10000000, FPS 354.
+
+average episode rewards is -255094.658203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1175/5208 episodes, total num timesteps 2257920/10000000, FPS 354.
+
+average episode rewards is -255910.78125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1180/5208 episodes, total num timesteps 2267520/10000000, FPS 354.
+
+average episode rewards is -252756.73828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1185/5208 episodes, total num timesteps 2277120/10000000, FPS 354.
+
+average episode rewards is -253281.73828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1190/5208 episodes, total num timesteps 2286720/10000000, FPS 354.
+
+average episode rewards is -253511.54296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1195/5208 episodes, total num timesteps 2296320/10000000, FPS 354.
+
+average episode rewards is -253571.748046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1200/5208 episodes, total num timesteps 2305920/10000000, FPS 353.
+
+average episode rewards is -254145.41015625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1205/5208 episodes, total num timesteps 2315520/10000000, FPS 353.
+
+average episode rewards is -253884.66796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1210/5208 episodes, total num timesteps 2325120/10000000, FPS 353.
+
+average episode rewards is -254104.921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1215/5208 episodes, total num timesteps 2334720/10000000, FPS 353.
+
+average episode rewards is -254242.587890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1220/5208 episodes, total num timesteps 2344320/10000000, FPS 353.
+
+average episode rewards is -254840.947265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1225/5208 episodes, total num timesteps 2353920/10000000, FPS 353.
+
+average episode rewards is -254659.599609375
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1230/5208 episodes, total num timesteps 2363520/10000000, FPS 353.
+
+average episode rewards is -255364.8046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1235/5208 episodes, total num timesteps 2373120/10000000, FPS 353.
+
+average episode rewards is -256522.03125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1240/5208 episodes, total num timesteps 2382720/10000000, FPS 353.
+
+average episode rewards is -253233.896484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1245/5208 episodes, total num timesteps 2392320/10000000, FPS 353.
+
+average episode rewards is -253502.724609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1250/5208 episodes, total num timesteps 2401920/10000000, FPS 352.
+
+average episode rewards is -253539.697265625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1255/5208 episodes, total num timesteps 2411520/10000000, FPS 352.
+
+average episode rewards is -254220.087890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1260/5208 episodes, total num timesteps 2421120/10000000, FPS 352.
+
+average episode rewards is -254726.923828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1265/5208 episodes, total num timesteps 2430720/10000000, FPS 352.
+
+average episode rewards is -254563.564453125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1270/5208 episodes, total num timesteps 2440320/10000000, FPS 352.
+
+average episode rewards is -254447.16796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1275/5208 episodes, total num timesteps 2449920/10000000, FPS 352.
+
+average episode rewards is -255803.84765625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1280/5208 episodes, total num timesteps 2459520/10000000, FPS 352.
+
+average episode rewards is -256635.52734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1285/5208 episodes, total num timesteps 2469120/10000000, FPS 352.
+
+average episode rewards is -255576.591796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1290/5208 episodes, total num timesteps 2478720/10000000, FPS 352.
+
+average episode rewards is -256197.3046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1295/5208 episodes, total num timesteps 2488320/10000000, FPS 351.
+
+average episode rewards is -256663.271484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1300/5208 episodes, total num timesteps 2497920/10000000, FPS 351.
+
+average episode rewards is -254389.04296875
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1305/5208 episodes, total num timesteps 2507520/10000000, FPS 351.
+
+average episode rewards is -254580.41015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1310/5208 episodes, total num timesteps 2517120/10000000, FPS 351.
+
+average episode rewards is -254987.63671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1315/5208 episodes, total num timesteps 2526720/10000000, FPS 351.
+
+average episode rewards is -255681.826171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1320/5208 episodes, total num timesteps 2536320/10000000, FPS 351.
+
+average episode rewards is -256431.85546875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1325/5208 episodes, total num timesteps 2545920/10000000, FPS 351.
+
+average episode rewards is -255640.634765625
+eval average episode rewards of agent: -267449.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1330/5208 episodes, total num timesteps 2555520/10000000, FPS 351.
+
+average episode rewards is -254813.61328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1335/5208 episodes, total num timesteps 2565120/10000000, FPS 350.
+
+average episode rewards is -254816.1328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1340/5208 episodes, total num timesteps 2574720/10000000, FPS 350.
+
+average episode rewards is -255792.802734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1345/5208 episodes, total num timesteps 2584320/10000000, FPS 350.
+
+average episode rewards is -254877.0703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1350/5208 episodes, total num timesteps 2593920/10000000, FPS 349.
+
+average episode rewards is -255933.92578125
+eval average episode rewards of agent: -267449.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1355/5208 episodes, total num timesteps 2603520/10000000, FPS 349.
+
+average episode rewards is -255990.498046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1360/5208 episodes, total num timesteps 2613120/10000000, FPS 349.
+
+average episode rewards is -253767.12890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1365/5208 episodes, total num timesteps 2622720/10000000, FPS 349.
+
+average episode rewards is -255685.341796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1370/5208 episodes, total num timesteps 2632320/10000000, FPS 349.
+
+average episode rewards is -257851.640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1375/5208 episodes, total num timesteps 2641920/10000000, FPS 349.
+
+average episode rewards is -262311.97265625
+eval average episode rewards of agent: -267449.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1380/5208 episodes, total num timesteps 2651520/10000000, FPS 349.
+
+average episode rewards is -261485.361328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1385/5208 episodes, total num timesteps 2661120/10000000, FPS 348.
+
+average episode rewards is -264773.26171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1390/5208 episodes, total num timesteps 2670720/10000000, FPS 348.
+
+average episode rewards is -271168.88671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1395/5208 episodes, total num timesteps 2680320/10000000, FPS 348.
+
+average episode rewards is -270086.1328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1400/5208 episodes, total num timesteps 2689920/10000000, FPS 347.
+
+average episode rewards is -270801.03515625
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1405/5208 episodes, total num timesteps 2699520/10000000, FPS 347.
+
+average episode rewards is -272438.994140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1410/5208 episodes, total num timesteps 2709120/10000000, FPS 347.
+
+average episode rewards is -281442.333984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1415/5208 episodes, total num timesteps 2718720/10000000, FPS 347.
+
+average episode rewards is -281871.533203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1420/5208 episodes, total num timesteps 2728320/10000000, FPS 347.
+
+average episode rewards is -253170.234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1425/5208 episodes, total num timesteps 2737920/10000000, FPS 347.
+
+average episode rewards is -254139.404296875
+eval average episode rewards of agent: -267449.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1430/5208 episodes, total num timesteps 2747520/10000000, FPS 346.
+
+average episode rewards is -253878.22265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1435/5208 episodes, total num timesteps 2757120/10000000, FPS 346.
+
+average episode rewards is -254241.03515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1440/5208 episodes, total num timesteps 2766720/10000000, FPS 346.
+
+average episode rewards is -254055.1171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1445/5208 episodes, total num timesteps 2776320/10000000, FPS 346.
+
+average episode rewards is -254012.109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1450/5208 episodes, total num timesteps 2785920/10000000, FPS 346.
+
+average episode rewards is -254703.779296875
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1455/5208 episodes, total num timesteps 2795520/10000000, FPS 345.
+
+average episode rewards is -254816.455078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1460/5208 episodes, total num timesteps 2805120/10000000, FPS 345.
+
+average episode rewards is -254526.123046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1465/5208 episodes, total num timesteps 2814720/10000000, FPS 345.
+
+average episode rewards is -254977.5
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1470/5208 episodes, total num timesteps 2824320/10000000, FPS 345.
+
+average episode rewards is -255861.38671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1475/5208 episodes, total num timesteps 2833920/10000000, FPS 345.
+
+average episode rewards is -253438.53515625
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1480/5208 episodes, total num timesteps 2843520/10000000, FPS 345.
+
+average episode rewards is -253633.095703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1485/5208 episodes, total num timesteps 2853120/10000000, FPS 345.
+
+average episode rewards is -254429.35546875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1490/5208 episodes, total num timesteps 2862720/10000000, FPS 344.
+
+average episode rewards is -254360.595703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1495/5208 episodes, total num timesteps 2872320/10000000, FPS 344.
+
+average episode rewards is -254581.845703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1500/5208 episodes, total num timesteps 2881920/10000000, FPS 344.
+
+average episode rewards is -254366.015625
+eval average episode rewards of agent: -267913.20000000007
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1505/5208 episodes, total num timesteps 2891520/10000000, FPS 344.
+
+average episode rewards is -254695.37109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1510/5208 episodes, total num timesteps 2901120/10000000, FPS 344.
+
+average episode rewards is -255143.466796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1515/5208 episodes, total num timesteps 2910720/10000000, FPS 344.
+
+average episode rewards is -255649.716796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1520/5208 episodes, total num timesteps 2920320/10000000, FPS 344.
+
+average episode rewards is -255562.763671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1525/5208 episodes, total num timesteps 2929920/10000000, FPS 344.
+
+average episode rewards is -256221.357421875
+eval average episode rewards of agent: -267912.70000000007
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1530/5208 episodes, total num timesteps 2939520/10000000, FPS 343.
+
+average episode rewards is -256823.61328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1535/5208 episodes, total num timesteps 2949120/10000000, FPS 343.
+
+average episode rewards is -253678.388671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1540/5208 episodes, total num timesteps 2958720/10000000, FPS 343.
+
+average episode rewards is -254962.412109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1545/5208 episodes, total num timesteps 2968320/10000000, FPS 343.
+
+average episode rewards is -253562.666015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1550/5208 episodes, total num timesteps 2977920/10000000, FPS 342.
+
+average episode rewards is -254303.583984375
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1555/5208 episodes, total num timesteps 2987520/10000000, FPS 342.
+
+average episode rewards is -254706.4453125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1560/5208 episodes, total num timesteps 2997120/10000000, FPS 342.
+
+average episode rewards is -254513.49609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1565/5208 episodes, total num timesteps 3006720/10000000, FPS 342.
+
+average episode rewards is -256791.97265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1570/5208 episodes, total num timesteps 3016320/10000000, FPS 342.
+
+average episode rewards is -255663.369140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1575/5208 episodes, total num timesteps 3025920/10000000, FPS 342.
+
+average episode rewards is -256815.029296875
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1580/5208 episodes, total num timesteps 3035520/10000000, FPS 341.
+
+average episode rewards is -254952.451171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1585/5208 episodes, total num timesteps 3045120/10000000, FPS 341.
+
+average episode rewards is -255852.5390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1590/5208 episodes, total num timesteps 3054720/10000000, FPS 341.
+
+average episode rewards is -256419.404296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1595/5208 episodes, total num timesteps 3064320/10000000, FPS 341.
+
+average episode rewards is -253978.798828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1600/5208 episodes, total num timesteps 3073920/10000000, FPS 341.
+
+average episode rewards is -254066.923828125
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1605/5208 episodes, total num timesteps 3083520/10000000, FPS 341.
+
+average episode rewards is -254568.837890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1610/5208 episodes, total num timesteps 3093120/10000000, FPS 340.
+
+average episode rewards is -255239.23828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1615/5208 episodes, total num timesteps 3102720/10000000, FPS 340.
+
+average episode rewards is -255995.537109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1620/5208 episodes, total num timesteps 3112320/10000000, FPS 340.
+
+average episode rewards is -255087.59765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1625/5208 episodes, total num timesteps 3121920/10000000, FPS 340.
+
+average episode rewards is -254386.81640625
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1630/5208 episodes, total num timesteps 3131520/10000000, FPS 339.
+
+average episode rewards is -254371.494140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1635/5208 episodes, total num timesteps 3141120/10000000, FPS 339.
+
+average episode rewards is -254540.595703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1640/5208 episodes, total num timesteps 3150720/10000000, FPS 339.
+
+average episode rewards is -254632.08984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1645/5208 episodes, total num timesteps 3160320/10000000, FPS 339.
+
+average episode rewards is -255625.166015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1650/5208 episodes, total num timesteps 3169920/10000000, FPS 339.
+
+average episode rewards is -255837.65625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1655/5208 episodes, total num timesteps 3179520/10000000, FPS 339.
+
+average episode rewards is -253494.66796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1660/5208 episodes, total num timesteps 3189120/10000000, FPS 339.
+
+average episode rewards is -255375.498046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1665/5208 episodes, total num timesteps 3198720/10000000, FPS 339.
+
+average episode rewards is -257843.02734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1670/5208 episodes, total num timesteps 3208320/10000000, FPS 339.
+
+average episode rewards is -262147.96875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1675/5208 episodes, total num timesteps 3217920/10000000, FPS 339.
+
+average episode rewards is -261321.4453125
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1680/5208 episodes, total num timesteps 3227520/10000000, FPS 338.
+
+average episode rewards is -264956.77734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1685/5208 episodes, total num timesteps 3237120/10000000, FPS 338.
+
+average episode rewards is -271503.80859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1690/5208 episodes, total num timesteps 3246720/10000000, FPS 338.
+
+average episode rewards is -270307.32421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1695/5208 episodes, total num timesteps 3256320/10000000, FPS 338.
+
+average episode rewards is -272097.099609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1700/5208 episodes, total num timesteps 3265920/10000000, FPS 337.
+
+average episode rewards is -272771.572265625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1705/5208 episodes, total num timesteps 3275520/10000000, FPS 337.
+
+average episode rewards is -281653.798828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1710/5208 episodes, total num timesteps 3285120/10000000, FPS 337.
+
+average episode rewards is -281265.556640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1715/5208 episodes, total num timesteps 3294720/10000000, FPS 337.
+
+average episode rewards is -252893.49609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1720/5208 episodes, total num timesteps 3304320/10000000, FPS 337.
+
+average episode rewards is -253101.591796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1725/5208 episodes, total num timesteps 3313920/10000000, FPS 337.
+
+average episode rewards is -253449.345703125
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1730/5208 episodes, total num timesteps 3323520/10000000, FPS 337.
+
+average episode rewards is -253981.494140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1735/5208 episodes, total num timesteps 3333120/10000000, FPS 337.
+
+average episode rewards is -253708.505859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1740/5208 episodes, total num timesteps 3342720/10000000, FPS 337.
+
+average episode rewards is -254125.37109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1745/5208 episodes, total num timesteps 3352320/10000000, FPS 337.
+
+average episode rewards is -254858.115234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1750/5208 episodes, total num timesteps 3361920/10000000, FPS 337.
+
+average episode rewards is -254609.384765625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1755/5208 episodes, total num timesteps 3371520/10000000, FPS 337.
+
+average episode rewards is -254685.615234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1760/5208 episodes, total num timesteps 3381120/10000000, FPS 337.
+
+average episode rewards is -254841.591796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1765/5208 episodes, total num timesteps 3390720/10000000, FPS 337.
+
+average episode rewards is -255812.63671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1770/5208 episodes, total num timesteps 3400320/10000000, FPS 336.
+
+average episode rewards is -252999.90234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1775/5208 episodes, total num timesteps 3409920/10000000, FPS 336.
+
+average episode rewards is -252915.029296875
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1780/5208 episodes, total num timesteps 3419520/10000000, FPS 336.
+
+average episode rewards is -253237.6171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1785/5208 episodes, total num timesteps 3429120/10000000, FPS 336.
+
+average episode rewards is -253447.91015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1790/5208 episodes, total num timesteps 3438720/10000000, FPS 336.
+
+average episode rewards is -253940.126953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1795/5208 episodes, total num timesteps 3448320/10000000, FPS 335.
+
+average episode rewards is -253944.873046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1800/5208 episodes, total num timesteps 3457920/10000000, FPS 335.
+
+average episode rewards is -254182.880859375
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1805/5208 episodes, total num timesteps 3467520/10000000, FPS 335.
+
+average episode rewards is -254245.13671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1810/5208 episodes, total num timesteps 3477120/10000000, FPS 335.
+
+average episode rewards is -254907.5390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1815/5208 episodes, total num timesteps 3486720/10000000, FPS 335.
+
+average episode rewards is -254278.330078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1820/5208 episodes, total num timesteps 3496320/10000000, FPS 335.
+
+average episode rewards is -255548.3203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1825/5208 episodes, total num timesteps 3505920/10000000, FPS 335.
+
+average episode rewards is -256388.90625
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1830/5208 episodes, total num timesteps 3515520/10000000, FPS 335.
+
+average episode rewards is -253204.51171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1835/5208 episodes, total num timesteps 3525120/10000000, FPS 335.
+
+average episode rewards is -253207.822265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1840/5208 episodes, total num timesteps 3534720/10000000, FPS 335.
+
+average episode rewards is -253563.8671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1845/5208 episodes, total num timesteps 3544320/10000000, FPS 335.
+
+average episode rewards is -254191.845703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1850/5208 episodes, total num timesteps 3553920/10000000, FPS 335.
+
+average episode rewards is -254580.849609375
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1855/5208 episodes, total num timesteps 3563520/10000000, FPS 335.
+
+average episode rewards is -254460.029296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1860/5208 episodes, total num timesteps 3573120/10000000, FPS 335.
+
+average episode rewards is -254880.146484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1865/5208 episodes, total num timesteps 3582720/10000000, FPS 335.
+
+average episode rewards is -255364.62890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1870/5208 episodes, total num timesteps 3592320/10000000, FPS 335.
+
+average episode rewards is -256181.71875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1875/5208 episodes, total num timesteps 3601920/10000000, FPS 335.
+
+average episode rewards is -254910.64453125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1880/5208 episodes, total num timesteps 3611520/10000000, FPS 335.
+
+average episode rewards is -255905.126953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1885/5208 episodes, total num timesteps 3621120/10000000, FPS 335.
+
+average episode rewards is -256411.34765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1890/5208 episodes, total num timesteps 3630720/10000000, FPS 335.
+
+average episode rewards is -254359.74609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1895/5208 episodes, total num timesteps 3640320/10000000, FPS 335.
+
+average episode rewards is -254456.337890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1900/5208 episodes, total num timesteps 3649920/10000000, FPS 335.
+
+average episode rewards is -255006.73828125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1905/5208 episodes, total num timesteps 3659520/10000000, FPS 335.
+
+average episode rewards is -255371.923828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1910/5208 episodes, total num timesteps 3669120/10000000, FPS 335.
+
+average episode rewards is -256443.662109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1915/5208 episodes, total num timesteps 3678720/10000000, FPS 335.
+
+average episode rewards is -255796.904296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1920/5208 episodes, total num timesteps 3688320/10000000, FPS 335.
+
+average episode rewards is -255798.369140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1925/5208 episodes, total num timesteps 3697920/10000000, FPS 335.
+
+average episode rewards is -256112.40234375
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1930/5208 episodes, total num timesteps 3707520/10000000, FPS 335.
+
+average episode rewards is -255121.58203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1935/5208 episodes, total num timesteps 3717120/10000000, FPS 335.
+
+average episode rewards is -254594.326171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1940/5208 episodes, total num timesteps 3726720/10000000, FPS 335.
+
+average episode rewards is -255789.580078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1945/5208 episodes, total num timesteps 3736320/10000000, FPS 335.
+
+average episode rewards is -255625.634765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1950/5208 episodes, total num timesteps 3745920/10000000, FPS 335.
+
+average episode rewards is -253851.50390625
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1955/5208 episodes, total num timesteps 3755520/10000000, FPS 335.
+
+average episode rewards is -256604.853515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1960/5208 episodes, total num timesteps 3765120/10000000, FPS 335.
+
+average episode rewards is -257924.8828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1965/5208 episodes, total num timesteps 3774720/10000000, FPS 335.
+
+average episode rewards is -261960.673828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1970/5208 episodes, total num timesteps 3784320/10000000, FPS 334.
+
+average episode rewards is -262430.712890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1975/5208 episodes, total num timesteps 3793920/10000000, FPS 334.
+
+average episode rewards is -264886.11328125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1980/5208 episodes, total num timesteps 3803520/10000000, FPS 334.
+
+average episode rewards is -271006.640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1985/5208 episodes, total num timesteps 3813120/10000000, FPS 334.
+
+average episode rewards is -270210.17578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1990/5208 episodes, total num timesteps 3822720/10000000, FPS 334.
+
+average episode rewards is -270456.09375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 1995/5208 episodes, total num timesteps 3832320/10000000, FPS 334.
+
+average episode rewards is -272482.119140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2000/5208 episodes, total num timesteps 3841920/10000000, FPS 334.
+
+average episode rewards is -281191.259765625
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2005/5208 episodes, total num timesteps 3851520/10000000, FPS 334.
+
+average episode rewards is -281390.7421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2010/5208 episodes, total num timesteps 3861120/10000000, FPS 334.
+
+average episode rewards is -253189.013671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2015/5208 episodes, total num timesteps 3870720/10000000, FPS 334.
+
+average episode rewards is -253251.50390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2020/5208 episodes, total num timesteps 3880320/10000000, FPS 334.
+
+average episode rewards is -253765.224609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2025/5208 episodes, total num timesteps 3889920/10000000, FPS 334.
+
+average episode rewards is -253950.8203125
+eval average episode rewards of agent: -267074.00000000006
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2030/5208 episodes, total num timesteps 3899520/10000000, FPS 334.
+
+average episode rewards is -254801.42578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2035/5208 episodes, total num timesteps 3909120/10000000, FPS 334.
+
+average episode rewards is -254625.0
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2040/5208 episodes, total num timesteps 3918720/10000000, FPS 334.
+
+average episode rewards is -255554.00390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2045/5208 episodes, total num timesteps 3928320/10000000, FPS 333.
+
+average episode rewards is -255187.822265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2050/5208 episodes, total num timesteps 3937920/10000000, FPS 333.
+
+average episode rewards is -255138.28125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2055/5208 episodes, total num timesteps 3947520/10000000, FPS 333.
+
+average episode rewards is -255814.62890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2060/5208 episodes, total num timesteps 3957120/10000000, FPS 333.
+
+average episode rewards is -257067.861328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2065/5208 episodes, total num timesteps 3966720/10000000, FPS 333.
+
+average episode rewards is -252860.390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2070/5208 episodes, total num timesteps 3976320/10000000, FPS 333.
+
+average episode rewards is -253234.306640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2075/5208 episodes, total num timesteps 3985920/10000000, FPS 333.
+
+average episode rewards is -253412.578125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2080/5208 episodes, total num timesteps 3995520/10000000, FPS 333.
+
+average episode rewards is -254029.248046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2085/5208 episodes, total num timesteps 4005120/10000000, FPS 333.
+
+average episode rewards is -254094.43359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2090/5208 episodes, total num timesteps 4014720/10000000, FPS 333.
+
+average episode rewards is -254687.314453125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2095/5208 episodes, total num timesteps 4024320/10000000, FPS 333.
+
+average episode rewards is -254141.66015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2100/5208 episodes, total num timesteps 4033920/10000000, FPS 333.
+
+average episode rewards is -254192.4609375
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2105/5208 episodes, total num timesteps 4043520/10000000, FPS 333.
+
+average episode rewards is -255019.833984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2110/5208 episodes, total num timesteps 4053120/10000000, FPS 333.
+
+average episode rewards is -254250.3515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2115/5208 episodes, total num timesteps 4062720/10000000, FPS 333.
+
+average episode rewards is -255143.759765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2120/5208 episodes, total num timesteps 4072320/10000000, FPS 333.
+
+average episode rewards is -256269.990234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2125/5208 episodes, total num timesteps 4081920/10000000, FPS 332.
+
+average episode rewards is -253270.72265625
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2130/5208 episodes, total num timesteps 4091520/10000000, FPS 332.
+
+average episode rewards is -253426.201171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2135/5208 episodes, total num timesteps 4101120/10000000, FPS 332.
+
+average episode rewards is -253605.908203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2140/5208 episodes, total num timesteps 4110720/10000000, FPS 332.
+
+average episode rewards is -254799.111328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2145/5208 episodes, total num timesteps 4120320/10000000, FPS 332.
+
+average episode rewards is -254804.033203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2150/5208 episodes, total num timesteps 4129920/10000000, FPS 332.
+
+average episode rewards is -254564.53125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2155/5208 episodes, total num timesteps 4139520/10000000, FPS 332.
+
+average episode rewards is -255223.154296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2160/5208 episodes, total num timesteps 4149120/10000000, FPS 333.
+
+average episode rewards is -255808.447265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2165/5208 episodes, total num timesteps 4158720/10000000, FPS 333.
+
+average episode rewards is -257375.91796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2170/5208 episodes, total num timesteps 4168320/10000000, FPS 333.
+
+average episode rewards is -256622.9296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2175/5208 episodes, total num timesteps 4177920/10000000, FPS 333.
+
+average episode rewards is -257998.798828125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2180/5208 episodes, total num timesteps 4187520/10000000, FPS 333.
+
+average episode rewards is -257305.166015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2185/5208 episodes, total num timesteps 4197120/10000000, FPS 333.
+
+average episode rewards is -254154.55078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2190/5208 episodes, total num timesteps 4206720/10000000, FPS 333.
+
+average episode rewards is -254084.0625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2195/5208 episodes, total num timesteps 4216320/10000000, FPS 333.
+
+average episode rewards is -254654.326171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2200/5208 episodes, total num timesteps 4225920/10000000, FPS 333.
+
+average episode rewards is -256297.6171875
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2205/5208 episodes, total num timesteps 4235520/10000000, FPS 333.
+
+average episode rewards is -255975.673828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2210/5208 episodes, total num timesteps 4245120/10000000, FPS 333.
+
+average episode rewards is -255146.42578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2215/5208 episodes, total num timesteps 4254720/10000000, FPS 333.
+
+average episode rewards is -254750.478515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2220/5208 episodes, total num timesteps 4264320/10000000, FPS 333.
+
+average episode rewards is -255194.677734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2225/5208 episodes, total num timesteps 4273920/10000000, FPS 333.
+
+average episode rewards is -254805.908203125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2230/5208 episodes, total num timesteps 4283520/10000000, FPS 334.
+
+average episode rewards is -254898.6328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2235/5208 episodes, total num timesteps 4293120/10000000, FPS 333.
+
+average episode rewards is -255525.8203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2240/5208 episodes, total num timesteps 4302720/10000000, FPS 334.
+
+average episode rewards is -256188.134765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2245/5208 episodes, total num timesteps 4312320/10000000, FPS 334.
+
+average episode rewards is -253650.703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2250/5208 episodes, total num timesteps 4321920/10000000, FPS 334.
+
+average episode rewards is -255337.265625
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2255/5208 episodes, total num timesteps 4331520/10000000, FPS 334.
+
+average episode rewards is -257484.4921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2260/5208 episodes, total num timesteps 4341120/10000000, FPS 334.
+
+average episode rewards is -261943.30078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2265/5208 episodes, total num timesteps 4350720/10000000, FPS 334.
+
+average episode rewards is -261217.1484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2270/5208 episodes, total num timesteps 4360320/10000000, FPS 334.
+
+average episode rewards is -265066.611328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2275/5208 episodes, total num timesteps 4369920/10000000, FPS 334.
+
+average episode rewards is -270851.923828125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2280/5208 episodes, total num timesteps 4379520/10000000, FPS 334.
+
+average episode rewards is -270218.232421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2285/5208 episodes, total num timesteps 4389120/10000000, FPS 334.
+
+average episode rewards is -271245.263671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2290/5208 episodes, total num timesteps 4398720/10000000, FPS 334.
+
+average episode rewards is -272859.111328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2295/5208 episodes, total num timesteps 4408320/10000000, FPS 334.
+
+average episode rewards is -281195.44921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2300/5208 episodes, total num timesteps 4417920/10000000, FPS 334.
+
+average episode rewards is -281228.173828125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2305/5208 episodes, total num timesteps 4427520/10000000, FPS 334.
+
+average episode rewards is -252878.203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2310/5208 episodes, total num timesteps 4437120/10000000, FPS 334.
+
+average episode rewards is -253175.33203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2315/5208 episodes, total num timesteps 4446720/10000000, FPS 334.
+
+average episode rewards is -253373.115234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2320/5208 episodes, total num timesteps 4456320/10000000, FPS 335.
+
+average episode rewards is -254664.462890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2325/5208 episodes, total num timesteps 4465920/10000000, FPS 335.
+
+average episode rewards is -254454.08203125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2330/5208 episodes, total num timesteps 4475520/10000000, FPS 335.
+
+average episode rewards is -254022.744140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2335/5208 episodes, total num timesteps 4485120/10000000, FPS 335.
+
+average episode rewards is -254825.859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2340/5208 episodes, total num timesteps 4494720/10000000, FPS 335.
+
+average episode rewards is -254621.923828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2345/5208 episodes, total num timesteps 4504320/10000000, FPS 335.
+
+average episode rewards is -254704.453125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2350/5208 episodes, total num timesteps 4513920/10000000, FPS 335.
+
+average episode rewards is -255200.15625
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2355/5208 episodes, total num timesteps 4523520/10000000, FPS 335.
+
+average episode rewards is -256223.583984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2360/5208 episodes, total num timesteps 4533120/10000000, FPS 335.
+
+average episode rewards is -253252.763671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2365/5208 episodes, total num timesteps 4542720/10000000, FPS 335.
+
+average episode rewards is -253097.197265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2370/5208 episodes, total num timesteps 4552320/10000000, FPS 335.
+
+average episode rewards is -253366.34765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2375/5208 episodes, total num timesteps 4561920/10000000, FPS 335.
+
+average episode rewards is -253582.998046875
+eval average episode rewards of agent: -267092.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2380/5208 episodes, total num timesteps 4571520/10000000, FPS 335.
+
+average episode rewards is -254086.171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2385/5208 episodes, total num timesteps 4581120/10000000, FPS 335.
+
+average episode rewards is -253949.091796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2390/5208 episodes, total num timesteps 4590720/10000000, FPS 335.
+
+average episode rewards is -254277.01171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2395/5208 episodes, total num timesteps 4600320/10000000, FPS 335.
+
+average episode rewards is -254341.494140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2400/5208 episodes, total num timesteps 4609920/10000000, FPS 335.
+
+average episode rewards is -255057.71484375
+eval average episode rewards of agent: -267092.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2405/5208 episodes, total num timesteps 4619520/10000000, FPS 335.
+
+average episode rewards is -254555.33203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2410/5208 episodes, total num timesteps 4629120/10000000, FPS 335.
+
+average episode rewards is -255172.67578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2415/5208 episodes, total num timesteps 4638720/10000000, FPS 335.
+
+average episode rewards is -256139.677734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2420/5208 episodes, total num timesteps 4648320/10000000, FPS 335.
+
+average episode rewards is -253106.54296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2425/5208 episodes, total num timesteps 4657920/10000000, FPS 335.
+
+average episode rewards is -253188.75
+eval average episode rewards of agent: -267092.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2430/5208 episodes, total num timesteps 4667520/10000000, FPS 335.
+
+average episode rewards is -253699.51171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2435/5208 episodes, total num timesteps 4677120/10000000, FPS 335.
+
+average episode rewards is -254102.75390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2440/5208 episodes, total num timesteps 4686720/10000000, FPS 335.
+
+average episode rewards is -254685.87890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2445/5208 episodes, total num timesteps 4696320/10000000, FPS 335.
+
+average episode rewards is -255073.388671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2450/5208 episodes, total num timesteps 4705920/10000000, FPS 335.
+
+average episode rewards is -255407.724609375
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2455/5208 episodes, total num timesteps 4715520/10000000, FPS 335.
+
+average episode rewards is -255611.015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2460/5208 episodes, total num timesteps 4725120/10000000, FPS 336.
+
+average episode rewards is -256657.880859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2465/5208 episodes, total num timesteps 4734720/10000000, FPS 336.
+
+average episode rewards is -255527.197265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2470/5208 episodes, total num timesteps 4744320/10000000, FPS 336.
+
+average episode rewards is -256406.953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2475/5208 episodes, total num timesteps 4753920/10000000, FPS 336.
+
+average episode rewards is -256591.46484375
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2480/5208 episodes, total num timesteps 4763520/10000000, FPS 336.
+
+average episode rewards is -254217.0703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2485/5208 episodes, total num timesteps 4773120/10000000, FPS 336.
+
+average episode rewards is -254550.41015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2490/5208 episodes, total num timesteps 4782720/10000000, FPS 336.
+
+average episode rewards is -254604.84375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2495/5208 episodes, total num timesteps 4792320/10000000, FPS 336.
+
+average episode rewards is -255608.14453125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2500/5208 episodes, total num timesteps 4801920/10000000, FPS 336.
+
+average episode rewards is -256103.876953125
+eval average episode rewards of agent: -266793.8
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2505/5208 episodes, total num timesteps 4811520/10000000, FPS 336.
+
+average episode rewards is -255465.966796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2510/5208 episodes, total num timesteps 4821120/10000000, FPS 336.
+
+average episode rewards is -255059.58984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2515/5208 episodes, total num timesteps 4830720/10000000, FPS 336.
+
+average episode rewards is -255174.55078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2520/5208 episodes, total num timesteps 4840320/10000000, FPS 336.
+
+average episode rewards is -254684.736328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2525/5208 episodes, total num timesteps 4849920/10000000, FPS 337.
+
+average episode rewards is -254598.22265625
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2530/5208 episodes, total num timesteps 4859520/10000000, FPS 337.
+
+average episode rewards is -256056.298828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2535/5208 episodes, total num timesteps 4869120/10000000, FPS 337.
+
+average episode rewards is -255731.923828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2540/5208 episodes, total num timesteps 4878720/10000000, FPS 337.
+
+average episode rewards is -253591.845703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2545/5208 episodes, total num timesteps 4888320/10000000, FPS 337.
+
+average episode rewards is -256337.9296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2550/5208 episodes, total num timesteps 4897920/10000000, FPS 337.
+
+average episode rewards is -257757.333984375
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2555/5208 episodes, total num timesteps 4907520/10000000, FPS 337.
+
+average episode rewards is -262156.171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2560/5208 episodes, total num timesteps 4917120/10000000, FPS 337.
+
+average episode rewards is -261210.1171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2565/5208 episodes, total num timesteps 4926720/10000000, FPS 337.
+
+average episode rewards is -264919.541015625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2570/5208 episodes, total num timesteps 4936320/10000000, FPS 337.
+
+average episode rewards is -271136.953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2575/5208 episodes, total num timesteps 4945920/10000000, FPS 337.
+
+average episode rewards is -270133.623046875
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2580/5208 episodes, total num timesteps 4955520/10000000, FPS 337.
+
+average episode rewards is -270789.462890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2585/5208 episodes, total num timesteps 4965120/10000000, FPS 337.
+
+average episode rewards is -272457.0703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2590/5208 episodes, total num timesteps 4974720/10000000, FPS 338.
+
+average episode rewards is -281155.37109375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2595/5208 episodes, total num timesteps 4984320/10000000, FPS 338.
+
+average episode rewards is -281351.865234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2600/5208 episodes, total num timesteps 4993920/10000000, FPS 338.
+
+average episode rewards is -253075.78125
+eval average episode rewards of agent: -267064.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2605/5208 episodes, total num timesteps 5003520/10000000, FPS 338.
+
+average episode rewards is -253264.423828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2610/5208 episodes, total num timesteps 5013120/10000000, FPS 338.
+
+average episode rewards is -253460.91796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2615/5208 episodes, total num timesteps 5022720/10000000, FPS 338.
+
+average episode rewards is -253926.9140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2620/5208 episodes, total num timesteps 5032320/10000000, FPS 338.
+
+average episode rewards is -253863.193359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2625/5208 episodes, total num timesteps 5041920/10000000, FPS 338.
+
+average episode rewards is -254279.970703125
+eval average episode rewards of agent: -267080.30000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2630/5208 episodes, total num timesteps 5051520/10000000, FPS 338.
+
+average episode rewards is -254853.134765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2635/5208 episodes, total num timesteps 5061120/10000000, FPS 338.
+
+average episode rewards is -254709.169921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2640/5208 episodes, total num timesteps 5070720/10000000, FPS 338.
+
+average episode rewards is -254580.263671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2645/5208 episodes, total num timesteps 5080320/10000000, FPS 338.
+
+average episode rewards is -254946.5625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2650/5208 episodes, total num timesteps 5089920/10000000, FPS 338.
+
+average episode rewards is -255893.466796875
+eval average episode rewards of agent: -267092.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2655/5208 episodes, total num timesteps 5099520/10000000, FPS 338.
+
+average episode rewards is -253756.669921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2660/5208 episodes, total num timesteps 5109120/10000000, FPS 338.
+
+average episode rewards is -253027.119140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2665/5208 episodes, total num timesteps 5118720/10000000, FPS 338.
+
+average episode rewards is -253201.9921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2670/5208 episodes, total num timesteps 5128320/10000000, FPS 338.
+
+average episode rewards is -253457.28515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2675/5208 episodes, total num timesteps 5137920/10000000, FPS 338.
+
+average episode rewards is -253953.134765625
+eval average episode rewards of agent: -267092.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2680/5208 episodes, total num timesteps 5147520/10000000, FPS 338.
+
+average episode rewards is -253952.578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2685/5208 episodes, total num timesteps 5157120/10000000, FPS 338.
+
+average episode rewards is -254099.501953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2690/5208 episodes, total num timesteps 5166720/10000000, FPS 338.
+
+average episode rewards is -254164.51171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2695/5208 episodes, total num timesteps 5176320/10000000, FPS 338.
+
+average episode rewards is -254823.6328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2700/5208 episodes, total num timesteps 5185920/10000000, FPS 338.
+
+average episode rewards is -254263.0078125
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2705/5208 episodes, total num timesteps 5195520/10000000, FPS 338.
+
+average episode rewards is -255087.568359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2710/5208 episodes, total num timesteps 5205120/10000000, FPS 338.
+
+average episode rewards is -256116.181640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2715/5208 episodes, total num timesteps 5214720/10000000, FPS 338.
+
+average episode rewards is -253053.69140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2720/5208 episodes, total num timesteps 5224320/10000000, FPS 338.
+
+average episode rewards is -253258.88671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2725/5208 episodes, total num timesteps 5233920/10000000, FPS 338.
+
+average episode rewards is -253721.279296875
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2730/5208 episodes, total num timesteps 5243520/10000000, FPS 339.
+
+average episode rewards is -254208.8671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2735/5208 episodes, total num timesteps 5253120/10000000, FPS 339.
+
+average episode rewards is -254758.88671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2740/5208 episodes, total num timesteps 5262720/10000000, FPS 339.
+
+average episode rewards is -254464.5703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2745/5208 episodes, total num timesteps 5272320/10000000, FPS 339.
+
+average episode rewards is -255079.599609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2750/5208 episodes, total num timesteps 5281920/10000000, FPS 339.
+
+average episode rewards is -255473.61328125
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2755/5208 episodes, total num timesteps 5291520/10000000, FPS 339.
+
+average episode rewards is -256480.869140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2760/5208 episodes, total num timesteps 5301120/10000000, FPS 339.
+
+average episode rewards is -254972.05078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2765/5208 episodes, total num timesteps 5310720/10000000, FPS 339.
+
+average episode rewards is -255900.8203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2770/5208 episodes, total num timesteps 5320320/10000000, FPS 339.
+
+average episode rewards is -256163.96484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2775/5208 episodes, total num timesteps 5329920/10000000, FPS 339.
+
+average episode rewards is -254014.365234375
+eval average episode rewards of agent: -267202.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2780/5208 episodes, total num timesteps 5339520/10000000, FPS 339.
+
+average episode rewards is -254139.2578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2785/5208 episodes, total num timesteps 5349120/10000000, FPS 339.
+
+average episode rewards is -256317.01171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2790/5208 episodes, total num timesteps 5358720/10000000, FPS 339.
+
+average episode rewards is -255379.921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2795/5208 episodes, total num timesteps 5368320/10000000, FPS 339.
+
+average episode rewards is -256138.359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2800/5208 episodes, total num timesteps 5377920/10000000, FPS 339.
+
+average episode rewards is -255393.369140625
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2805/5208 episodes, total num timesteps 5387520/10000000, FPS 339.
+
+average episode rewards is -254493.515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2810/5208 episodes, total num timesteps 5397120/10000000, FPS 339.
+
+average episode rewards is -254839.3359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2815/5208 episodes, total num timesteps 5406720/10000000, FPS 339.
+
+average episode rewards is -254694.462890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2820/5208 episodes, total num timesteps 5416320/10000000, FPS 339.
+
+average episode rewards is -254890.810546875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2825/5208 episodes, total num timesteps 5425920/10000000, FPS 339.
+
+average episode rewards is -255424.16015625
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2830/5208 episodes, total num timesteps 5435520/10000000, FPS 339.
+
+average episode rewards is -255646.669921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2835/5208 episodes, total num timesteps 5445120/10000000, FPS 339.
+
+average episode rewards is -253412.255859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2840/5208 episodes, total num timesteps 5454720/10000000, FPS 339.
+
+average episode rewards is -255625.048828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2845/5208 episodes, total num timesteps 5464320/10000000, FPS 339.
+
+average episode rewards is -257649.697265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2850/5208 episodes, total num timesteps 5473920/10000000, FPS 339.
+
+average episode rewards is -262356.796875
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2855/5208 episodes, total num timesteps 5483520/10000000, FPS 339.
+
+average episode rewards is -261239.47265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2860/5208 episodes, total num timesteps 5493120/10000000, FPS 339.
+
+average episode rewards is -265190.361328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2865/5208 episodes, total num timesteps 5502720/10000000, FPS 339.
+
+average episode rewards is -271155.1171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2870/5208 episodes, total num timesteps 5512320/10000000, FPS 339.
+
+average episode rewards is -270247.32421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2875/5208 episodes, total num timesteps 5521920/10000000, FPS 339.
+
+average episode rewards is -270697.3828125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2880/5208 episodes, total num timesteps 5531520/10000000, FPS 339.
+
+average episode rewards is -272496.6796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2885/5208 episodes, total num timesteps 5541120/10000000, FPS 339.
+
+average episode rewards is -281291.865234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2890/5208 episodes, total num timesteps 5550720/10000000, FPS 339.
+
+average episode rewards is -282058.30078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2895/5208 episodes, total num timesteps 5560320/10000000, FPS 339.
+
+average episode rewards is -253085.09765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2900/5208 episodes, total num timesteps 5569920/10000000, FPS 339.
+
+average episode rewards is -253222.177734375
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2905/5208 episodes, total num timesteps 5579520/10000000, FPS 339.
+
+average episode rewards is -253426.669921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2910/5208 episodes, total num timesteps 5589120/10000000, FPS 339.
+
+average episode rewards is -253986.708984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2915/5208 episodes, total num timesteps 5598720/10000000, FPS 339.
+
+average episode rewards is -254164.21875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2920/5208 episodes, total num timesteps 5608320/10000000, FPS 339.
+
+average episode rewards is -253999.921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2925/5208 episodes, total num timesteps 5617920/10000000, FPS 339.
+
+average episode rewards is -254786.54296875
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2930/5208 episodes, total num timesteps 5627520/10000000, FPS 339.
+
+average episode rewards is -255318.720703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2935/5208 episodes, total num timesteps 5637120/10000000, FPS 339.
+
+average episode rewards is -254702.080078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2940/5208 episodes, total num timesteps 5646720/10000000, FPS 339.
+
+average episode rewards is -254835.615234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2945/5208 episodes, total num timesteps 5656320/10000000, FPS 339.
+
+average episode rewards is -255838.0078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2950/5208 episodes, total num timesteps 5665920/10000000, FPS 339.
+
+average episode rewards is -253118.525390625
+eval average episode rewards of agent: -267092.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2955/5208 episodes, total num timesteps 5675520/10000000, FPS 339.
+
+average episode rewards is -253255.72265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2960/5208 episodes, total num timesteps 5685120/10000000, FPS 339.
+
+average episode rewards is -253705.48828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2965/5208 episodes, total num timesteps 5694720/10000000, FPS 339.
+
+average episode rewards is -253527.626953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2970/5208 episodes, total num timesteps 5704320/10000000, FPS 339.
+
+average episode rewards is -254042.548828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2975/5208 episodes, total num timesteps 5713920/10000000, FPS 339.
+
+average episode rewards is -253827.12890625
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2980/5208 episodes, total num timesteps 5723520/10000000, FPS 339.
+
+average episode rewards is -254175.05859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2985/5208 episodes, total num timesteps 5733120/10000000, FPS 339.
+
+average episode rewards is -254085.908203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2990/5208 episodes, total num timesteps 5742720/10000000, FPS 339.
+
+average episode rewards is -254768.26171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 2995/5208 episodes, total num timesteps 5752320/10000000, FPS 339.
+
+average episode rewards is -254237.431640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3000/5208 episodes, total num timesteps 5761920/10000000, FPS 339.
+
+average episode rewards is -255332.490234375
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3005/5208 episodes, total num timesteps 5771520/10000000, FPS 339.
+
+average episode rewards is -256132.03125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3010/5208 episodes, total num timesteps 5781120/10000000, FPS 339.
+
+average episode rewards is -253345.576171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3015/5208 episodes, total num timesteps 5790720/10000000, FPS 339.
+
+average episode rewards is -253243.388671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3020/5208 episodes, total num timesteps 5800320/10000000, FPS 339.
+
+average episode rewards is -253621.11328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3025/5208 episodes, total num timesteps 5809920/10000000, FPS 339.
+
+average episode rewards is -254208.720703125
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3030/5208 episodes, total num timesteps 5819520/10000000, FPS 339.
+
+average episode rewards is -254640.29296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3035/5208 episodes, total num timesteps 5829120/10000000, FPS 339.
+
+average episode rewards is -254562.3046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3040/5208 episodes, total num timesteps 5838720/10000000, FPS 339.
+
+average episode rewards is -254934.375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3045/5208 episodes, total num timesteps 5848320/10000000, FPS 339.
+
+average episode rewards is -255286.34765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3050/5208 episodes, total num timesteps 5857920/10000000, FPS 339.
+
+average episode rewards is -256172.548828125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3055/5208 episodes, total num timesteps 5867520/10000000, FPS 339.
+
+average episode rewards is -254886.09375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3060/5208 episodes, total num timesteps 5877120/10000000, FPS 339.
+
+average episode rewards is -255844.27734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3065/5208 episodes, total num timesteps 5886720/10000000, FPS 339.
+
+average episode rewards is -256256.748046875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3070/5208 episodes, total num timesteps 5896320/10000000, FPS 339.
+
+average episode rewards is -253945.78125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3075/5208 episodes, total num timesteps 5905920/10000000, FPS 339.
+
+average episode rewards is -254139.55078125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3080/5208 episodes, total num timesteps 5915520/10000000, FPS 339.
+
+average episode rewards is -254416.259765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3085/5208 episodes, total num timesteps 5925120/10000000, FPS 339.
+
+average episode rewards is -255261.9140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3090/5208 episodes, total num timesteps 5934720/10000000, FPS 339.
+
+average episode rewards is -255941.30859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3095/5208 episodes, total num timesteps 5944320/10000000, FPS 339.
+
+average episode rewards is -255218.671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3100/5208 episodes, total num timesteps 5953920/10000000, FPS 339.
+
+average episode rewards is -254778.837890625
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3105/5208 episodes, total num timesteps 5963520/10000000, FPS 339.
+
+average episode rewards is -254541.38671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3110/5208 episodes, total num timesteps 5973120/10000000, FPS 339.
+
+average episode rewards is -254506.611328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3115/5208 episodes, total num timesteps 5982720/10000000, FPS 339.
+
+average episode rewards is -255403.359375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3120/5208 episodes, total num timesteps 5992320/10000000, FPS 339.
+
+average episode rewards is -255886.611328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3125/5208 episodes, total num timesteps 6001920/10000000, FPS 339.
+
+average episode rewards is -255945.263671875
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3130/5208 episodes, total num timesteps 6011520/10000000, FPS 339.
+
+average episode rewards is -253700.595703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3135/5208 episodes, total num timesteps 6021120/10000000, FPS 339.
+
+average episode rewards is -255370.751953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3140/5208 episodes, total num timesteps 6030720/10000000, FPS 339.
+
+average episode rewards is -257491.376953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3145/5208 episodes, total num timesteps 6040320/10000000, FPS 339.
+
+average episode rewards is -262024.482421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3150/5208 episodes, total num timesteps 6049920/10000000, FPS 339.
+
+average episode rewards is -262258.76953125
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3155/5208 episodes, total num timesteps 6059520/10000000, FPS 339.
+
+average episode rewards is -266999.53125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3160/5208 episodes, total num timesteps 6069120/10000000, FPS 339.
+
+average episode rewards is -271112.724609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3165/5208 episodes, total num timesteps 6078720/10000000, FPS 339.
+
+average episode rewards is -269970.087890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3170/5208 episodes, total num timesteps 6088320/10000000, FPS 339.
+
+average episode rewards is -271454.619140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3175/5208 episodes, total num timesteps 6097920/10000000, FPS 339.
+
+average episode rewards is -272416.875
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3180/5208 episodes, total num timesteps 6107520/10000000, FPS 339.
+
+average episode rewards is -281210.15625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3185/5208 episodes, total num timesteps 6117120/10000000, FPS 339.
+
+average episode rewards is -281394.228515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3190/5208 episodes, total num timesteps 6126720/10000000, FPS 339.
+
+average episode rewards is -253015.1953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3195/5208 episodes, total num timesteps 6136320/10000000, FPS 339.
+
+average episode rewards is -253148.173828125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3200/5208 episodes, total num timesteps 6145920/10000000, FPS 339.
+
+average episode rewards is -253695.17578125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3205/5208 episodes, total num timesteps 6155520/10000000, FPS 340.
+
+average episode rewards is -254677.119140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3210/5208 episodes, total num timesteps 6165120/10000000, FPS 340.
+
+average episode rewards is -254148.3984375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3215/5208 episodes, total num timesteps 6174720/10000000, FPS 340.
+
+average episode rewards is -253905.322265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3220/5208 episodes, total num timesteps 6184320/10000000, FPS 340.
+
+average episode rewards is -254773.330078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3225/5208 episodes, total num timesteps 6193920/10000000, FPS 340.
+
+average episode rewards is -254710.283203125
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3230/5208 episodes, total num timesteps 6203520/10000000, FPS 340.
+
+average episode rewards is -254509.072265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3235/5208 episodes, total num timesteps 6213120/10000000, FPS 340.
+
+average episode rewards is -254809.013671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3240/5208 episodes, total num timesteps 6222720/10000000, FPS 339.
+
+average episode rewards is -255959.53125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3245/5208 episodes, total num timesteps 6232320/10000000, FPS 339.
+
+average episode rewards is -253057.96875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3250/5208 episodes, total num timesteps 6241920/10000000, FPS 339.
+
+average episode rewards is -253207.119140625
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3255/5208 episodes, total num timesteps 6251520/10000000, FPS 339.
+
+average episode rewards is -253191.005859375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3260/5208 episodes, total num timesteps 6261120/10000000, FPS 339.
+
+average episode rewards is -253554.169921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3265/5208 episodes, total num timesteps 6270720/10000000, FPS 339.
+
+average episode rewards is -253944.31640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3270/5208 episodes, total num timesteps 6280320/10000000, FPS 339.
+
+average episode rewards is -253821.591796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3275/5208 episodes, total num timesteps 6289920/10000000, FPS 339.
+
+average episode rewards is -254080.048828125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3280/5208 episodes, total num timesteps 6299520/10000000, FPS 339.
+
+average episode rewards is -254084.384765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3285/5208 episodes, total num timesteps 6309120/10000000, FPS 339.
+
+average episode rewards is -254740.634765625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3290/5208 episodes, total num timesteps 6318720/10000000, FPS 339.
+
+average episode rewards is -254234.82421875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3295/5208 episodes, total num timesteps 6328320/10000000, FPS 339.
+
+average episode rewards is -255060.17578125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3300/5208 episodes, total num timesteps 6337920/10000000, FPS 339.
+
+average episode rewards is -256116.064453125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3305/5208 episodes, total num timesteps 6347520/10000000, FPS 339.
+
+average episode rewards is -253051.81640625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3310/5208 episodes, total num timesteps 6357120/10000000, FPS 339.
+
+average episode rewards is -253181.044921875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3315/5208 episodes, total num timesteps 6366720/10000000, FPS 339.
+
+average episode rewards is -253460.947265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3320/5208 episodes, total num timesteps 6376320/10000000, FPS 339.
+
+average episode rewards is -254101.46484375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3325/5208 episodes, total num timesteps 6385920/10000000, FPS 339.
+
+average episode rewards is -254648.84765625
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3330/5208 episodes, total num timesteps 6395520/10000000, FPS 339.
+
+average episode rewards is -254636.865234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3335/5208 episodes, total num timesteps 6405120/10000000, FPS 339.
+
+average episode rewards is -256757.75390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3340/5208 episodes, total num timesteps 6414720/10000000, FPS 340.
+
+average episode rewards is -255196.494140625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3345/5208 episodes, total num timesteps 6424320/10000000, FPS 340.
+
+average episode rewards is -256196.279296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3350/5208 episodes, total num timesteps 6433920/10000000, FPS 339.
+
+average episode rewards is -254933.203125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3355/5208 episodes, total num timesteps 6443520/10000000, FPS 339.
+
+average episode rewards is -255782.841796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3360/5208 episodes, total num timesteps 6453120/10000000, FPS 339.
+
+average episode rewards is -256145.80078125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3365/5208 episodes, total num timesteps 6462720/10000000, FPS 339.
+
+average episode rewards is -253962.0703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3370/5208 episodes, total num timesteps 6472320/10000000, FPS 340.
+
+average episode rewards is -254084.150390625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3375/5208 episodes, total num timesteps 6481920/10000000, FPS 340.
+
+average episode rewards is -254444.23828125
+eval average episode rewards of agent: -267077.80000000005
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3380/5208 episodes, total num timesteps 6491520/10000000, FPS 339.
+
+average episode rewards is -255481.0546875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3385/5208 episodes, total num timesteps 6501120/10000000, FPS 340.
+
+average episode rewards is -256015.986328125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3390/5208 episodes, total num timesteps 6510720/10000000, FPS 340.
+
+average episode rewards is -255042.83203125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3395/5208 episodes, total num timesteps 6520320/10000000, FPS 340.
+
+average episode rewards is -254271.09375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3400/5208 episodes, total num timesteps 6529920/10000000, FPS 340.
+
+average episode rewards is -254351.25
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3405/5208 episodes, total num timesteps 6539520/10000000, FPS 340.
+
+average episode rewards is -254365.341796875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3410/5208 episodes, total num timesteps 6549120/10000000, FPS 340.
+
+average episode rewards is -254470.3125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3415/5208 episodes, total num timesteps 6558720/10000000, FPS 340.
+
+average episode rewards is -255543.22265625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3420/5208 episodes, total num timesteps 6568320/10000000, FPS 340.
+
+average episode rewards is -255748.65234375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3425/5208 episodes, total num timesteps 6577920/10000000, FPS 340.
+
+average episode rewards is -253536.73828125
+eval average episode rewards of agent: -267079.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3430/5208 episodes, total num timesteps 6587520/10000000, FPS 340.
+
+average episode rewards is -255702.65625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3435/5208 episodes, total num timesteps 6597120/10000000, FPS 340.
+
+average episode rewards is -257791.845703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3440/5208 episodes, total num timesteps 6606720/10000000, FPS 340.
+
+average episode rewards is -262358.876953125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3445/5208 episodes, total num timesteps 6616320/10000000, FPS 340.
+
+average episode rewards is -261311.3671875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3450/5208 episodes, total num timesteps 6625920/10000000, FPS 340.
+
+average episode rewards is -264941.513671875
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3455/5208 episodes, total num timesteps 6635520/10000000, FPS 340.
+
+average episode rewards is -271422.802734375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3460/5208 episodes, total num timesteps 6645120/10000000, FPS 340.
+
+average episode rewards is -270139.51171875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3465/5208 episodes, total num timesteps 6654720/10000000, FPS 340.
+
+average episode rewards is -271172.34375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3470/5208 episodes, total num timesteps 6664320/10000000, FPS 340.
+
+average episode rewards is -272529.404296875
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3475/5208 episodes, total num timesteps 6673920/10000000, FPS 340.
+
+average episode rewards is -281500.01953125
+eval average episode rewards of agent: -267083.2
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3480/5208 episodes, total num timesteps 6683520/10000000, FPS 340.
+
+average episode rewards is -282058.095703125
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3485/5208 episodes, total num timesteps 6693120/10000000, FPS 340.
+
+average episode rewards is -253310.15625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3490/5208 episodes, total num timesteps 6702720/10000000, FPS 340.
+
+average episode rewards is -253854.462890625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3495/5208 episodes, total num timesteps 6712320/10000000, FPS 340.
+
+average episode rewards is -254178.603515625
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3500/5208 episodes, total num timesteps 6721920/10000000, FPS 340.
+
+average episode rewards is -254405.5078125
+eval average episode rewards of agent: -267202.1
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3505/5208 episodes, total num timesteps 6731520/10000000, FPS 340.
+
+average episode rewards is -253875.99609375
+
+ Scenario rail_schedule Algo rmappo Exp baseline_speed20_episode_60 updates 3510/5208 episodes, total num timesteps 6741120/10000000, FPS 340.
+
+average episode rewards is -254634.990234375

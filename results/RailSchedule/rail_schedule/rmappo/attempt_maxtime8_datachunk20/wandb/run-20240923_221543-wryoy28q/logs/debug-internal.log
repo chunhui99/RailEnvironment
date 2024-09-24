@@ -1,0 +1,18 @@
+{"time":"2024-09-23T22:15:43.562025677+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T22:15:43.562053723+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_maxtime8_datachunk20/wandb/run-20240923_221543-wryoy28q/logs/debug-core.log"}
+{"time":"2024-09-23T22:15:43.562159347+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-23T22:15:43.562175817+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/attempt_maxtime8_datachunk20/wandb/run-20240923_221543-wryoy28q/logs/debug-core.log"}
+{"time":"2024-09-23T22:15:43.568046332+08:00","level":"INFO","msg":"created new stream","id":"wryoy28q"}
+{"time":"2024-09-23T22:15:43.568092269+08:00","level":"INFO","msg":"stream: started","id":"wryoy28q"}
+{"time":"2024-09-23T22:15:43.568107842+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wryoy28q"}}
+{"time":"2024-09-23T22:15:43.568151736+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wryoy28q"}}
+{"time":"2024-09-23T22:15:43.568103568+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wryoy28q"}}
+{"time":"2024-09-23T22:15:43.949793162+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-23T22:15:43.951375624+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-23T22:19:27.366434129+08:00","level":"INFO","msg":"stream: closing","id":"wryoy28q"}
+{"time":"2024-09-23T22:19:27.366515727+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-23T22:19:27.366769425+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-23T22:19:28.584087478+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wryoy28q"}}
+{"time":"2024-09-23T22:19:28.584208961+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"wryoy28q"}}
+{"time":"2024-09-23T22:19:28.584189606+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wryoy28q"}}
+{"time":"2024-09-23T22:19:28.584420043+08:00","level":"INFO","msg":"stream: closed","id":"wryoy28q"}

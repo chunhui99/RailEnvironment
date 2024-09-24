@@ -1,0 +1,147 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 0/520 episodes, total num timesteps 1920/1000000.0, FPS 1314.
+
+average episode rewards is -314173.65234375
+Collision detected between Train 0 and Train 1 on Line lineA_forward
+Collision detected between Train 0 and Train 1 on Line lineA_forward
+eval average episode rewards of agent: -20103154.5
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 5/520 episodes, total num timesteps 11520/1000000.0, FPS 1788.
+
+average episode rewards is -311567.28515625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 10/520 episodes, total num timesteps 21120/1000000.0, FPS 1898.
+
+average episode rewards is -303833.173828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 15/520 episodes, total num timesteps 30720/1000000.0, FPS 1987.
+
+average episode rewards is -301696.787109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 20/520 episodes, total num timesteps 40320/1000000.0, FPS 2042.
+
+average episode rewards is -299469.84375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 25/520 episodes, total num timesteps 49920/1000000.0, FPS 2071.
+
+average episode rewards is -289539.31640625
+eval average episode rewards of agent: -294613.4
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 30/520 episodes, total num timesteps 59520/1000000.0, FPS 2083.
+
+average episode rewards is -287948.466796875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 35/520 episodes, total num timesteps 69120/1000000.0, FPS 2103.
+
+average episode rewards is -292622.431640625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 40/520 episodes, total num timesteps 78720/1000000.0, FPS 2108.
+
+average episode rewards is -286706.77734375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 45/520 episodes, total num timesteps 88320/1000000.0, FPS 2115.
+
+average episode rewards is -280144.833984375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 50/520 episodes, total num timesteps 97920/1000000.0, FPS 2125.
+
+average episode rewards is -284513.96484375
+eval average episode rewards of agent: -289128.8
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 55/520 episodes, total num timesteps 107520/1000000.0, FPS 2125.
+
+average episode rewards is -279377.724609375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 60/520 episodes, total num timesteps 117120/1000000.0, FPS 2132.
+
+average episode rewards is -274797.3046875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 65/520 episodes, total num timesteps 126720/1000000.0, FPS 2144.
+
+average episode rewards is -273675.29296875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 70/520 episodes, total num timesteps 136320/1000000.0, FPS 2138.
+
+average episode rewards is -273216.62109375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 75/520 episodes, total num timesteps 145920/1000000.0, FPS 2145.
+
+average episode rewards is -273535.986328125
+eval average episode rewards of agent: -285617.1
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 80/520 episodes, total num timesteps 155520/1000000.0, FPS 2158.
+
+average episode rewards is -275916.767578125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 85/520 episodes, total num timesteps 165120/1000000.0, FPS 2166.
+
+average episode rewards is -276764.8828125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 90/520 episodes, total num timesteps 174720/1000000.0, FPS 2173.
+
+average episode rewards is -276367.08984375
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 95/520 episodes, total num timesteps 184320/1000000.0, FPS 2171.
+
+average episode rewards is -275810.5078125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 100/520 episodes, total num timesteps 193920/1000000.0, FPS 2185.
+
+average episode rewards is -276793.2421875
+eval average episode rewards of agent: -286968.10000000003
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 105/520 episodes, total num timesteps 203520/1000000.0, FPS 2193.
+
+average episode rewards is -278431.611328125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 110/520 episodes, total num timesteps 213120/1000000.0, FPS 2193.
+
+average episode rewards is -276203.84765625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 115/520 episodes, total num timesteps 222720/1000000.0, FPS 2194.
+
+average episode rewards is -276057.3046875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 120/520 episodes, total num timesteps 232320/1000000.0, FPS 2192.
+
+average episode rewards is -273014.326171875
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 125/520 episodes, total num timesteps 241920/1000000.0, FPS 2191.
+
+average episode rewards is -272903.37890625
+eval average episode rewards of agent: -285617.1
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 130/520 episodes, total num timesteps 251520/1000000.0, FPS 2190.
+
+average episode rewards is -273013.30078125
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 135/520 episodes, total num timesteps 261120/1000000.0, FPS 2200.
+
+average episode rewards is -273458.7890625
+
+ Scenario rail_schedule Algo rmappo Exp attempt_datachunk20 updates 140/520 episodes, total num timesteps 270720/1000000.0, FPS 2202.
+
+average episode rewards is -273141.4453125
+Traceback (most recent call last):
+  File "main.py", line 132, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 117, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 31, in run
+    obs, rewards, dones, infos = self.envs.step(actions_env) # obs 32 3 9 rewards 32 3 dones 32 3 infos 32 3
+  File "/home/chunhuili/Transportation/RailEnvironment/envs_wrappers.py", line 106, in step
+    self.step_async(actions)
+  File "/home/chunhuili/Transportation/RailEnvironment/envs_wrappers.py", line 262, in step_async
+    remote.send(('step', action))
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+KeyboardInterrupt

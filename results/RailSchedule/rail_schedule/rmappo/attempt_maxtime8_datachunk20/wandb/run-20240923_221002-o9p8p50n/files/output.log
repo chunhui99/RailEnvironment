@@ -1,0 +1,37 @@
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+observation_space [Box(9,), Box(9,), Box(9,)]
+share_observation_space [Box(27,), Box(27,), Box(27,)]
+obs_space:  [Box(9,), Box(9,), Box(9,)]
+share_obs_space:  [Box(27,), Box(27,), Box(27,)]
+act_space:  Discrete(3)
+
+ Scenario rail_schedule Algo rmappo Exp attempt_maxtime8_datachunk20 updates 0/520 episodes, total num timesteps 1920/1000000.0, FPS 1367.
+
+average episode rewards is -318815.595703125
+Traceback (most recent call last):
+  File "main.py", line 128, in <module>
+    main(sys.argv[1:])
+  File "main.py", line 113, in main
+    runner.run()
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 79, in run
+    self.eval(total_num_steps)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/runner/rail_runner.py", line 154, in eval
+    eval_action, eval_rnn_states = self.trainer.policy.act(np.concatenate(eval_obs),
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/rMAPPOPolicy.py", line 121, in act
+    actions, _, rnn_states_actor = self.actor(obs, rnn_states_actor, masks, available_actions, deterministic)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/r_actor_critic.py", line 67, in forward
+    actor_features, rnn_states = self.rnn(actor_features, rnn_states, masks) # actor_features 96 64, rnn_states 96 1 64
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/chunhuili/anaconda3/envs/transport/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/chunhuili/Transportation/RailEnvironment/MAPPO/algorithms/utils/rnn.py", line 39, in forward
+    masks = masks.view(T, N)
+RuntimeError: shape '[32, 3]' is invalid for input of size 3

@@ -1,0 +1,20 @@
+{"time":"2024-09-24T00:32:11.013635468+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T00:32:11.013646838+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed25_episode_900/wandb/run-20240924_003211-xupr3fyt/logs/debug-core.log"}
+{"time":"2024-09-24T00:32:11.013684452+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T00:32:11.013687252+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed25_episode_900/wandb/run-20240924_003211-xupr3fyt/logs/debug-core.log"}
+{"time":"2024-09-24T00:32:11.021967758+08:00","level":"INFO","msg":"created new stream","id":"xupr3fyt"}
+{"time":"2024-09-24T00:32:11.021988375+08:00","level":"INFO","msg":"stream: started","id":"xupr3fyt"}
+{"time":"2024-09-24T00:32:11.022020823+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xupr3fyt"}}
+{"time":"2024-09-24T00:32:11.022111315+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xupr3fyt"}}
+{"time":"2024-09-24T00:32:11.022182219+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"xupr3fyt"}}
+{"time":"2024-09-24T00:32:11.347231732+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T00:32:11.349180148+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T02:47:17.016016451+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/xupr3fyt/file_stream"}
+{"time":"2024-09-24T08:16:05.803106873+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2024-09-24T09:54:05.562359916+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T09:54:05.562601198+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T09:54:08.03189497+08:00","level":"INFO","msg":"stream: closing","id":"xupr3fyt"}
+{"time":"2024-09-24T09:54:08.031910124+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xupr3fyt"}}
+{"time":"2024-09-24T09:54:08.03192634+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xupr3fyt"}}
+{"time":"2024-09-24T09:54:08.031991112+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"xupr3fyt"}}
+{"time":"2024-09-24T09:54:08.031999122+08:00","level":"INFO","msg":"stream: closed","id":"xupr3fyt"}

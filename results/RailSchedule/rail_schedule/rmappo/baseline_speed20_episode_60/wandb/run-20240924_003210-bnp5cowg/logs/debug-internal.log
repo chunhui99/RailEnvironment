@@ -1,0 +1,21 @@
+{"time":"2024-09-24T00:32:10.845598863+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T00:32:10.845614715+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed20_episode_60/wandb/run-20240924_003210-bnp5cowg/logs/debug-core.log"}
+{"time":"2024-09-24T00:32:10.845648313+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T00:32:10.845651014+08:00","level":"INFO","msg":"created symlink","path":"/home/chunhuili/Transportation/RailEnvironment/results/RailSchedule/rail_schedule/rmappo/baseline_speed20_episode_60/wandb/run-20240924_003210-bnp5cowg/logs/debug-core.log"}
+{"time":"2024-09-24T00:32:10.862409459+08:00","level":"INFO","msg":"created new stream","id":"bnp5cowg"}
+{"time":"2024-09-24T00:32:10.862442287+08:00","level":"INFO","msg":"stream: started","id":"bnp5cowg"}
+{"time":"2024-09-24T00:32:10.862465804+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"bnp5cowg"}}
+{"time":"2024-09-24T00:32:10.862493322+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"bnp5cowg"}}
+{"time":"2024-09-24T00:32:10.86245432+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bnp5cowg"}}
+{"time":"2024-09-24T00:32:11.191595077+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T00:32:11.197646121+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T01:00:36.779870464+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/bnp5cowg/file_stream"}
+{"time":"2024-09-24T01:00:44.018296846+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/bnp5cowg/file_stream"}
+{"time":"2024-09-24T01:39:05.756550537+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/grand_chicken/RailSchedule/bnp5cowg/file_stream"}
+{"time":"2024-09-24T07:09:38.378373816+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T07:09:38.378817812+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T07:09:41.680125231+08:00","level":"INFO","msg":"stream: closing","id":"bnp5cowg"}
+{"time":"2024-09-24T07:09:41.680141468+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"bnp5cowg"}}
+{"time":"2024-09-24T07:09:41.680168882+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bnp5cowg"}}
+{"time":"2024-09-24T07:09:41.680266072+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"bnp5cowg"}}
+{"time":"2024-09-24T07:09:41.680273869+08:00","level":"INFO","msg":"stream: closed","id":"bnp5cowg"}
