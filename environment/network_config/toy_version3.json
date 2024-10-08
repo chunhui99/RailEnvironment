@@ -1,0 +1,75 @@
+{
+    "lines": [
+      {
+        "name": "lineA_forward",
+        "stations": [
+          {"id": "0", "name": "A", "capacity": 1000 ,"passenger_arrival_time_bin": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "start_station":true},
+          {"id": "1", "name": "B", "capacity": 800 ,"passenger_arrival_time_bin":  [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]},
+          {"id": "2", "name": "C", "capacity": 1200 ,"passenger_arrival_time_bin": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]},
+          {"id": "3", "name": "D", "capacity": 1500 ,"passenger_arrival_time_bin": [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0], "end_station":true}
+        ],
+        "station_distances": {
+          "A-B": 3000,
+          "B-C": 5000,
+          "C-D": 4400
+        },
+        "begin_distance": 1000,
+        "end_distance": 500,
+        "position_y": 0,
+        "dual_line_id": "lineA",
+        "forward": true
+      },
+      {
+        "name": "lineA_backward",
+        "stations": [
+          {"id": "4", "name": "D", "capacity": 1500 ,"passenger_arrival_time_bin": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "start_station":true},
+          {"id": "5", "name": "C", "capacity": 1200 ,"passenger_arrival_time_bin": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]},
+          {"id": "6", "name": "B", "capacity": 800  ,"passenger_arrival_time_bin": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]},
+          {"id": "7", "name": "A", "capacity": 1000 ,"passenger_arrival_time_bin": [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0], "end_station":true}
+        ],
+        "station_distances": {
+          "D-C": 4400,
+          "C-B": 5000,
+          "B-A": 3000
+        },
+        "begin_distance": 1000,
+        "end_distance": 500,
+        "position_y": -1,
+        "dual_line_id": "lineA",
+        "forward": false
+      }
+    ],
+    "trains": [
+      {
+        "id": 0,
+        "line": "lineA_forward",
+        "capacity": 300,
+        "default_speed": 15,
+        "max_speed": 60,
+        "speed_unit":"km/h",
+        "departure_time": 0,
+        "length": 120
+      },
+      {
+        "id": 1,
+        "line": "lineA_forward",
+        "capacity": 300,
+        "default_speed": 15,
+        "max_speed": 60,
+        "speed_unit":"km/h",
+        "departure_time": 5,
+        "length": 130
+      },
+      {
+        "id": 2,
+        "line": "lineA_backward",
+        "capacity": 300,
+        "default_speed": 15,
+        "speed_unit":"km/h",
+        "max_speed": 60,
+        "departure_time": 0,
+        "length": 125
+      }
+    ]
+  }
+  
